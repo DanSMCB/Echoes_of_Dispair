@@ -1,0 +1,2271 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/staging' branch; Version is '6000.0.61f1 (74a0adb02c31) revision 7643309'; Using compiler version '193933523'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-danie" at "2026-03-27T01:33:39.5200471Z"
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'pt' Physical Memory: 32332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-03-27T01:33:39Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.61f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/danie/Echoes of Dispair
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+63769
+-licensingIpc
+LicenseClient-danie
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/danie/Echoes of Dispair
+C:/Users/danie/Echoes of Dispair
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32684]  Target information:
+
+Player connection [32684]  * "[IP] 192.168.1.245 [Port] 0 [Flags] 2 [Guid] 265261066 [EditorId] 265261066 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BF7GFHI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32684] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32684] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19928, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              9fcbd22729cb444e83f30ef484da53a9
+  Correlation Id:          6eb21ebb55b54b9c640e71f41126e55a
+  External correlation Id: 485740198638098833
+  Machine Id:              ns1IhdgJhvidj9r9A3V++lf3kEs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-danie" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-danie-notifications" at "2026-03-27T01:33:39.552689Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.61f1 (74a0adb02c31)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.61f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/danie/Echoes of Dispair/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7700 XT (ID=0x747e)
+    Vendor:   ATI
+    VRAM:     12062 MB
+    Driver:   32.0.12033.1030
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.61f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.61f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.61f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002092 seconds.
+- Loaded All Assemblies, in  0.285 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.224 seconds
+Domain Reload Profiling: 507ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (98ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (225ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872787652608-dan_smcb-UnityProStuXXXX
+  Product: Unity Student
+  Type: Assigned
+  Expiration: 2026-10-18T20:06:43Z
+- Loaded All Assemblies, in  0.566 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.523 seconds
+Domain Reload Profiling: 1086ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (119ms)
+			BuildScriptInfoCaches (37ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (524ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (383ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6141 unused Assets / (4.0 MB). Loaded Objects now: 6845.
+Memory consumption went from 130.7 MB to 126.7 MB.
+Total: 7.832500 ms (FindLiveObjects: 0.640000 ms CreateObjectMapping: 0.593900 ms MarkObjects: 4.134800 ms  DeleteObjects: 2.463000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 132879.282268 seconds.
+  path: Assets/Materials/Nature Deck/rapid_intensification_mat.mat
+  artifactKey: Guid(25c2f9e26f938304ea468fd7e2033aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/rapid_intensification_mat.mat using Guid(25c2f9e26f938304ea468fd7e2033aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3706a732c9ce36a546cfb425b6fa27c') in 0.3620001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583812 seconds.
+  path: Assets/Materials/Nature Deck/rapid_intensification_mat.mat
+  artifactKey: Guid(25c2f9e26f938304ea468fd7e2033aa1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Nature Deck/rapid_intensification_mat.mat using Guid(25c2f9e26f938304ea468fd7e2033aa1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85ee99e5a40f6460b83f6c353a09de45') in 0.1277784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.364645 seconds.
+  path: Assets/Materials/Nature Deck/seismic_echoes_mat.mat
+  artifactKey: Guid(20642e2af02a1544a9dfcb1987b1f97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/seismic_echoes_mat.mat using Guid(20642e2af02a1544a9dfcb1987b1f97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bf6b7be2fb441483672438e83c66514') in 0.0156079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.929509 seconds.
+  path: Assets/Materials/Nature Deck/seismic_echoes_mat.mat
+  artifactKey: Guid(20642e2af02a1544a9dfcb1987b1f97f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Nature Deck/seismic_echoes_mat.mat using Guid(20642e2af02a1544a9dfcb1987b1f97f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11880e143e89693937e0f18608b01e1b') in 0.0119408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.963447 seconds.
+  path: Assets/Materials/Nature Deck/parched_earth_mat.mat
+  artifactKey: Guid(5ee3708f433700540bd2303200642cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/parched_earth_mat.mat using Guid(5ee3708f433700540bd2303200642cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd7e397d13bcadc747ccc44cb78a1dbb') in 0.0138472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.934626 seconds.
+  path: Assets/Materials/Nature Deck/parched_earth_mat.mat
+  artifactKey: Guid(5ee3708f433700540bd2303200642cc8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Nature Deck/parched_earth_mat.mat using Guid(5ee3708f433700540bd2303200642cc8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a01c5745668481a0145e91caf4f7c90d') in 0.0117911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.136165 seconds.
+  path: Assets/Materials/Nature Deck/breath_of_boreas_mat.mat
+  artifactKey: Guid(62ce9f819e602e44db8f57d7051b0c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/breath_of_boreas_mat.mat using Guid(62ce9f819e602e44db8f57d7051b0c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd83be0378c099f85490c5e4ca57e7a0d') in 0.0142381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.932977 seconds.
+  path: Assets/Materials/Nature Deck/breath_of_boreas_mat.mat
+  artifactKey: Guid(62ce9f819e602e44db8f57d7051b0c13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Nature Deck/breath_of_boreas_mat.mat using Guid(62ce9f819e602e44db8f57d7051b0c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '222a6649062a73493d022ed64c6aee3c') in 0.0137106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.419809 seconds.
+  path: Assets/Materials/Nature Deck/_mat.mat
+  artifactKey: Guid(ad125129978324c47959df724e5aa833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/_mat.mat using Guid(ad125129978324c47959df724e5aa833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '914b4666a557e90ebe28a20bfbfe1dc3') in 0.0146706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.984506 seconds.
+  path: Assets/Materials/Nature Deck/_mat.mat
+  artifactKey: Guid(ad125129978324c47959df724e5aa833) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Nature Deck/_mat.mat using Guid(ad125129978324c47959df724e5aa833) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80c16442d93dfe54858d7580f3016662') in 0.0123734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.957049 seconds.
+  path: Assets/Materials/Nature Deck/torrent_of_the_naiads_mat.mat
+  artifactKey: Guid(ad125129978324c47959df724e5aa833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/torrent_of_the_naiads_mat.mat using Guid(ad125129978324c47959df724e5aa833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '537d6076d9362f625a8be22cf82a22e6') in 0.0136718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.931712 seconds.
+  path: Assets/Materials/Nature Deck/torrent_of_the_naiads_mat.mat
+  artifactKey: Guid(ad125129978324c47959df724e5aa833) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Nature Deck/torrent_of_the_naiads_mat.mat using Guid(ad125129978324c47959df724e5aa833) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72922cc6a2ffd691053f4623e20b8181') in 0.0123722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.833388 seconds.
+  path: Assets/Materials/Nature Deck/fury_of_enceladus_mat.mat
+  artifactKey: Guid(00a4309339bd0e747aa45f312d3c347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/fury_of_enceladus_mat.mat using Guid(00a4309339bd0e747aa45f312d3c347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af627101ade78ae49427f1870ef8a6c0') in 0.0148579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.933025 seconds.
+  path: Assets/Materials/Nature Deck/fury_of_enceladus_mat.mat
+  artifactKey: Guid(00a4309339bd0e747aa45f312d3c347f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Nature Deck/fury_of_enceladus_mat.mat using Guid(00a4309339bd0e747aa45f312d3c347f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3a3763fe40ad0bed13dbc63c3145ca5') in 0.0119105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.323091 seconds.
+  path: Assets/Materials/Nature Deck/flame_of_prometheus_mat.mat
+  artifactKey: Guid(7e396d0c0d5de534ba31b87dced8d331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/flame_of_prometheus_mat.mat using Guid(7e396d0c0d5de534ba31b87dced8d331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '970dea93c69ad4d65a52aaa769d13c3c') in 0.0148257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.933439 seconds.
+  path: Assets/Materials/Nature Deck/flame_of_prometheus_mat.mat
+  artifactKey: Guid(7e396d0c0d5de534ba31b87dced8d331) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Nature Deck/flame_of_prometheus_mat.mat using Guid(7e396d0c0d5de534ba31b87dced8d331) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91156ef872514937e0b19ad2d415b8fd') in 0.0127038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.299382 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a91f11808356c12d48ced8d1eaef175') in 0.0006376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036977 seconds.
+  path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+  artifactKey: Guid(96de908384869cd409c75efa351d5edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(96de908384869cd409c75efa351d5edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af1902649dc8c3b6595214d7d83933f8') in 0.0013092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecb633bb2f66e9b9e47b235a452a4a27') in 0.0008328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '206da7d4a83ee0fe79d769379554e0b0') in 0.0009185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.191818 seconds.
+  path: Assets/Models/Human Deck
+  artifactKey: Guid(a627bd35e2ed5174c9b2db7e9332a9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck using Guid(a627bd35e2ed5174c9b2db7e9332a9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b62facad3cf45d51c320f832c87b16c8') in 0.0004628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.534618 seconds.
+  path: Assets/Models/Human Deck
+  artifactKey: Guid(a627bd35e2ed5174c9b2db7e9332a9a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Human Deck using Guid(a627bd35e2ed5174c9b2db7e9332a9a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb55cc647218b87451866064d0a81962') in 0.0105014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.510963 seconds.
+  path: Assets/Models/Nature Deck
+  artifactKey: Guid(a2962dfcde644764db815e75b1a89279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature Deck using Guid(a2962dfcde644764db815e75b1a89279) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c08154c89eec4c7e14402f9d2070802e') in 0.0007581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.941784 seconds.
+  path: Assets/Models/Nature Deck
+  artifactKey: Guid(a2962dfcde644764db815e75b1a89279) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Nature Deck using Guid(a2962dfcde644764db815e75b1a89279) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a279a3e5c53efa8a4911e1372e23db00') in 0.0104878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.285740 seconds.
+  path: Assets/Models/Human Deck/evacuation_card.fbx
+  artifactKey: Guid(283053d50c5ed18429b997f46e779578) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Human Deck/evacuation_card.fbx using Guid(283053d50c5ed18429b997f46e779578) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85a5a1105a24a1e152fe1ac55e0be09d') in 0.0425234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.481867 seconds.
+  path: Assets/Models/Human Deck/evacuation_card 1.fbx
+  artifactKey: Guid(065ea0b2729ef2b48aa98c80cb14178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/evacuation_card 1.fbx using Guid(065ea0b2729ef2b48aa98c80cb14178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bb09c01f69e375a629b0d6288fd51fd') in 0.0401584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.401688 seconds.
+  path: Assets/Models/Human Deck/evacuation_card 2.fbx
+  artifactKey: Guid(9ad3a87efe39c08479235e449172096b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/evacuation_card 2.fbx using Guid(9ad3a87efe39c08479235e449172096b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2bc85537ec62252a2d4311709af2bcc') in 0.0155495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.622105 seconds.
+  path: Assets/Models/Human Deck/evacuation_card 3.fbx
+  artifactKey: Guid(7747b52cc682a2441aeee62627582647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/evacuation_card 3.fbx using Guid(7747b52cc682a2441aeee62627582647) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00a2f98c768d14fddb8d5b1ce11234a2') in 0.0110437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.386500 seconds.
+  path: Assets/Models/Human Deck/evacuation_card 4.fbx
+  artifactKey: Guid(b2cfe830436c41b47abb4721faddec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/evacuation_card 4.fbx using Guid(b2cfe830436c41b47abb4721faddec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f086478be9037d2acc22d296b5742877') in 0.0092593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.949583 seconds.
+  path: Assets/Materials/Nature Deck/parched_earth_mat.mat
+  artifactKey: Guid(5ee3708f433700540bd2303200642cc8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Nature Deck/parched_earth_mat.mat using Guid(5ee3708f433700540bd2303200642cc8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c324a3c512454014457cf3eecc61247a') in 0.0151038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Human Deck/evacuation_card 4.fbx
+  artifactKey: Guid(b2cfe830436c41b47abb4721faddec42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Human Deck/evacuation_card 4.fbx using Guid(b2cfe830436c41b47abb4721faddec42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d98ce28e13f2ccb0d0a190beaa27237') in 0.0257881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013846 seconds.
+  path: Assets/Models/Human Deck/evacuation_card 5.fbx
+  artifactKey: Guid(d3400b919f19bac429443c4b4ce4be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/evacuation_card 5.fbx using Guid(d3400b919f19bac429443c4b4ce4be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '145dea809e3b9d4dac1d7bbd4d9d86cd') in 0.010427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.091016 seconds.
+  path: Assets/Materials/Nature Deck/breath_of_boreas_mat.mat
+  artifactKey: Guid(62ce9f819e602e44db8f57d7051b0c13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Nature Deck/breath_of_boreas_mat.mat using Guid(62ce9f819e602e44db8f57d7051b0c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ba8ba3adec5578fa561fd763cb1e5aa') in 0.0146873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Human Deck/evacuation_card 2.fbx
+  artifactKey: Guid(9ad3a87efe39c08479235e449172096b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Human Deck/evacuation_card 2.fbx using Guid(9ad3a87efe39c08479235e449172096b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5faf06b8db8950952f4ba72d9e61fa84') in 0.0183437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Human Deck/evacuation_card 3.fbx
+  artifactKey: Guid(7747b52cc682a2441aeee62627582647) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Human Deck/evacuation_card 3.fbx using Guid(7747b52cc682a2441aeee62627582647) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '736573038ca1b2cef6cccaae547e781b') in 0.0162589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.442460 seconds.
+  path: Assets/Models/Human Deck/evacuation_card 5.fbx
+  artifactKey: Guid(d3400b919f19bac429443c4b4ce4be81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Human Deck/evacuation_card 5.fbx using Guid(d3400b919f19bac429443c4b4ce4be81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc7a3e4aebac92bfffbd7d93116b3b42') in 0.0148381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.446903 seconds.
+  path: Assets/Models/Human Deck/generator_card.fbx
+  artifactKey: Guid(065ea0b2729ef2b48aa98c80cb14178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/generator_card.fbx using Guid(065ea0b2729ef2b48aa98c80cb14178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd013ce4bb7dd7a9a4c3322c2163f1bb0') in 0.009938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.926547 seconds.
+  path: Assets/Models/Human Deck/generator_card.fbx
+  artifactKey: Guid(065ea0b2729ef2b48aa98c80cb14178c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Human Deck/generator_card.fbx using Guid(065ea0b2729ef2b48aa98c80cb14178c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '545c71d1b9e7f71f1e42e8f1e4f17fe1') in 0.0168971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.299315 seconds.
+  path: Assets/Models/Human Deck/power_cut_off_card.fbx
+  artifactKey: Guid(d3400b919f19bac429443c4b4ce4be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/power_cut_off_card.fbx using Guid(d3400b919f19bac429443c4b4ce4be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '251fcabee438b5ebd2993a051ae7284a') in 0.0107566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.905651 seconds.
+  path: Assets/Models/Human Deck/power_cut_off_card.fbx
+  artifactKey: Guid(d3400b919f19bac429443c4b4ce4be81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Human Deck/power_cut_off_card.fbx using Guid(d3400b919f19bac429443c4b4ce4be81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5abb4a28ab1575d0eafe5c51ffe01184') in 0.0154655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.703262 seconds.
+  path: Assets/Models/Human Deck/shelter_card.fbx
+  artifactKey: Guid(b2cfe830436c41b47abb4721faddec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/shelter_card.fbx using Guid(b2cfe830436c41b47abb4721faddec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9548eef2137203b3f76dcbd94542159') in 0.0103777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.929301 seconds.
+  path: Assets/Models/Human Deck/shelter_card.fbx
+  artifactKey: Guid(b2cfe830436c41b47abb4721faddec42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Human Deck/shelter_card.fbx using Guid(b2cfe830436c41b47abb4721faddec42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9426a5269e6fefed10702be6a42b2d78') in 0.0152899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.475878 seconds.
+  path: Assets/Models/Human Deck/stay_hydrated_card.fbx
+  artifactKey: Guid(7747b52cc682a2441aeee62627582647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/stay_hydrated_card.fbx using Guid(7747b52cc682a2441aeee62627582647) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14c06cab172f884d73022af94825bfd8') in 0.0102398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.935332 seconds.
+  path: Assets/Models/Human Deck/stay_hydrated_card.fbx
+  artifactKey: Guid(7747b52cc682a2441aeee62627582647) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Human Deck/stay_hydrated_card.fbx using Guid(7747b52cc682a2441aeee62627582647) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9419f0357c86b1cd5ebed3ba19b2f7d') in 0.0141537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.289781 seconds.
+  path: Assets/Models/Human Deck/sandbags_card.fbx
+  artifactKey: Guid(9ad3a87efe39c08479235e449172096b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/sandbags_card.fbx using Guid(9ad3a87efe39c08479235e449172096b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d3909536f777b7804e371e646b81ab6') in 0.0096288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.927366 seconds.
+  path: Assets/Models/Human Deck/sandbags_card.fbx
+  artifactKey: Guid(9ad3a87efe39c08479235e449172096b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Human Deck/sandbags_card.fbx using Guid(9ad3a87efe39c08479235e449172096b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38603f4e4e36c03441533e9481c9d16c') in 0.017539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.260582 seconds.
+  path: Assets/Models/Human Deck/evacuation_card 1.fbx
+  artifactKey: Guid(bf2ba57ee63b9d347aa2fac7e2e32b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/evacuation_card 1.fbx using Guid(bf2ba57ee63b9d347aa2fac7e2e32b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fe420f8f33b6d26fbdf9e62ec3d0cf3') in 0.0110584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940368 seconds.
+  path: Assets/Models/Human Deck/evacuation_card 1.fbx
+  artifactKey: Guid(bf2ba57ee63b9d347aa2fac7e2e32b87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Human Deck/evacuation_card 1.fbx using Guid(bf2ba57ee63b9d347aa2fac7e2e32b87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fcbae8e4d6014a0872224ad8ba07ce9') in 0.0140258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.639202 seconds.
+  path: Assets/Models/Human Deck/barricade_card.fbx
+  artifactKey: Guid(bf2ba57ee63b9d347aa2fac7e2e32b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/barricade_card.fbx using Guid(bf2ba57ee63b9d347aa2fac7e2e32b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e77795292650850976381754fed183d4') in 0.0105616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.929482 seconds.
+  path: Assets/Models/Human Deck/barricade_card.fbx
+  artifactKey: Guid(bf2ba57ee63b9d347aa2fac7e2e32b87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Human Deck/barricade_card.fbx using Guid(bf2ba57ee63b9d347aa2fac7e2e32b87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b766063e7d9120a6dddf1f62d7afabd9') in 0.0152084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.242901 seconds.
+  path: Assets/Materials/Human Deck/barricade_mat.mat
+  artifactKey: Guid(940bed11d8fcfad448d27eb07c3d0953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Human Deck/barricade_mat.mat using Guid(940bed11d8fcfad448d27eb07c3d0953) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b17b4867e3611da7de0bd75ce4aafb3') in 0.0149485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/Human Deck/stay_hidrated_mat.mat
+  artifactKey: Guid(f35ffb2c41230004aa2d09326fd4a835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Human Deck/stay_hidrated_mat.mat using Guid(f35ffb2c41230004aa2d09326fd4a835) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc7267fb387e2c62b57461196fa30038') in 0.0150101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.581741 seconds.
+  path: Assets/Models/Human Deck/barricade_card.fbx
+  artifactKey: Guid(bf2ba57ee63b9d347aa2fac7e2e32b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/barricade_card.fbx using Guid(bf2ba57ee63b9d347aa2fac7e2e32b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed05aabf26b5b21a7adf1a54fc39280f') in 0.0183562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.361973 seconds.
+  path: Assets/Models/Human Deck/generator_card.fbx
+  artifactKey: Guid(065ea0b2729ef2b48aa98c80cb14178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/generator_card.fbx using Guid(065ea0b2729ef2b48aa98c80cb14178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c25fc536a10a0ad32c29eece7c5a5405') in 0.0184273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.856348 seconds.
+  path: Assets/Models/Human Deck/power_cut_off_card.fbx
+  artifactKey: Guid(d3400b919f19bac429443c4b4ce4be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/power_cut_off_card.fbx using Guid(d3400b919f19bac429443c4b4ce4be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6f471bf31b9570a4e672a8c22e112aa') in 0.0174415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.675512 seconds.
+  path: Assets/Models/Human Deck/sandbags_card.fbx
+  artifactKey: Guid(9ad3a87efe39c08479235e449172096b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/sandbags_card.fbx using Guid(9ad3a87efe39c08479235e449172096b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd88b6b11df49324b28131cdfd84bea89') in 0.0172814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.229918 seconds.
+  path: Assets/Models/Human Deck/shelter_card.fbx
+  artifactKey: Guid(b2cfe830436c41b47abb4721faddec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/shelter_card.fbx using Guid(b2cfe830436c41b47abb4721faddec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fabcbe2f7f5c97c39e17d7df0c92128') in 0.01716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.045835 seconds.
+  path: Assets/Models/Human Deck/stay_hydrated_card.fbx
+  artifactKey: Guid(7747b52cc682a2441aeee62627582647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Human Deck/stay_hydrated_card.fbx using Guid(7747b52cc682a2441aeee62627582647) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e1ffff85d9ac6f242b79d68006e1284') in 0.0177227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.865211 seconds.
+  path: Assets/Prefabs/card_example 1.prefab
+  artifactKey: Guid(23922a8b8a444e9488e2df327fd71ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/card_example 1.prefab using Guid(23922a8b8a444e9488e2df327fd71ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7d825236f9c4b455fb7a7a71374214e') in 0.0168775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.322424 seconds.
+  path: Assets/Prefabs/Human Deck
+  artifactKey: Guid(44730d912a3e6224fa202d973701eb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck using Guid(44730d912a3e6224fa202d973701eb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ad433f09da6f292efaaa6f6569b053a') in 0.0004901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.941304 seconds.
+  path: Assets/Prefabs/Human Deck
+  artifactKey: Guid(44730d912a3e6224fa202d973701eb25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck using Guid(44730d912a3e6224fa202d973701eb25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c62785c9933bf15c208692b86e0639b') in 0.0112183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.021684 seconds.
+  path: Assets/Prefabs/Nature Deck
+  artifactKey: Guid(96d7e4b0ccd11c04eaaade4b2daa34e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck using Guid(96d7e4b0ccd11c04eaaade4b2daa34e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdb79d1eaaa9b04e02d89d05ee25b619') in 0.0004417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.945905 seconds.
+  path: Assets/Prefabs/Nature Deck
+  artifactKey: Guid(96d7e4b0ccd11c04eaaade4b2daa34e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck using Guid(96d7e4b0ccd11c04eaaade4b2daa34e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd73a1e301719e72fc686757258cf5191') in 0.0099908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.275146 seconds.
+  path: Assets/Prefabs/Human Deck/evacuation_card.prefab
+  artifactKey: Guid(48699b53f6cec4547adbd3d46b20e8a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/evacuation_card.prefab using Guid(48699b53f6cec4547adbd3d46b20e8a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e6ae22617f25b8bcaa1e7b31dce563a') in 0.0313321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.071753 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca043bef9856d1285405b9a46939fd52') in 0.0122228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942286 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a09d06f1532cca4ea0744a26db691879') in 0.0127244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.247427 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2d4acf7c702af4eeb3d162c4cc314db') in 0.0151245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940391 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a61f8ad56148a4320538952e0e4fa82') in 0.0127808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.211383 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b07ce7424ee4c057f3e1369683082e45') in 0.0144304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.939402 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d7ca186d694d2b0642c1e4c1b38675e') in 0.0122031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.927237 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be27ee900fe86b4cd120c246b55a1d66') in 0.0149574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.938679 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c80b48072cef89b9326c99d2f1219e4d') in 0.0125171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.350896 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9856201f41c2270c4096ff0bafba4af') in 0.0150003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940959 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '161ea5fd3069a13960cdc3522b1f1184') in 0.0141628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.805375 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81bc2ba5fa9939b387894cdb720d3ce3') in 0.0144007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942347 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a65cbe4e23c7c9c3e47c122454852420') in 0.0134087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.411437 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a111216e7ce9249dc600881c7c36488') in 0.0082784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.934996 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16407ee2895152afc3a6dd3bb7e1c8f6') in 0.0161163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.018102 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28285beb42db5753b4060b52bc8882a8') in 0.0070481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942900 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a11bd70f1ddb60eaa442ad1c14a04f0') in 0.0131231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.634569 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7911aae7fb2827750f6f84dd3aa959e3') in 0.0076418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.945504 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05b09adcf2fb235df87cd47a496fbe7e') in 0.014117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.591798 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8733dfec8a1c9f961956b0060f240581') in 0.0079572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.946632 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '641f4814f859db27f1576354b32bf476') in 0.0150972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.497484 seconds.
+  path: Assets/Prefabs/Human Deck/evacuation_card.prefab
+  artifactKey: Guid(48699b53f6cec4547adbd3d46b20e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/evacuation_card.prefab using Guid(48699b53f6cec4547adbd3d46b20e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4977ff04ee28ab6c7f9ef405d763c571') in 0.0145857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.936706 seconds.
+  path: Assets/Prefabs/Human Deck/evacuation_card.prefab
+  artifactKey: Guid(48699b53f6cec4547adbd3d46b20e8a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/evacuation_card.prefab using Guid(48699b53f6cec4547adbd3d46b20e8a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e979d2158a8901866bf21fe29027cb8') in 0.0166017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.795927 seconds.
+  path: Assets/Prefabs/Human Deck/evacuation_card.prefab
+  artifactKey: Guid(48699b53f6cec4547adbd3d46b20e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/evacuation_card.prefab using Guid(48699b53f6cec4547adbd3d46b20e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d8167a345ef511402dfaf78e9dbeaf6') in 0.0082654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.947953 seconds.
+  path: Assets/Prefabs/Human Deck/evacuation_card.prefab
+  artifactKey: Guid(48699b53f6cec4547adbd3d46b20e8a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/evacuation_card.prefab using Guid(48699b53f6cec4547adbd3d46b20e8a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6940dd71c8532632f10b070db7e946a') in 0.015138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.903040 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b09902060aec5bbbaac0c6a7f7c2c3e2') in 0.0076879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.943388 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '778fd93d374dd8b504893b44e33a2bc3') in 0.0215597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.748131 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2b3305fc6171e840729cd6bf3fd15b9') in 0.0072886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940514 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '082bbbda7aeb5fe11342d231be559d5c') in 0.0138746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.794589 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03964b546bd3b13fb72a350f39ba12d7') in 0.0079456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.941236 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5e205f5d443fdafea79cc86404f95f4') in 0.0144151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.005209 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74b70656e5f9b2733e73d803d5de3f6c') in 0.0079318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.927507 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b6a1bb828c800281da061e423775b25') in 0.0144386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.749970 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcce3e492467f50a4f0ea08d33b28927') in 0.0082334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.935484 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02cbd1789f66f0e2c1a88e447a40f6b5') in 0.0142596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.806411 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70766b05dbc7104993201367116041f2') in 0.0074509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942748 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4a997f75b0015c4397dc1ab71fd0d90') in 0.0165247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.958935 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71609d293b7ba8852ec83b248ac4888f') in 0.008328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.929640 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd348accadb5fecfd25cd4bd0bb9e1657') in 0.0129655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.423810 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22ba46f7e2238aa3c2efe9d5e73a2ea3') in 0.0090859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.938577 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '208931981afd3469551148d7f522af61') in 0.0159412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.961377 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f6b876d313f3ebc728f30ace25e015a') in 0.0096315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.944654 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '770e7ff443a1b6d90986804985286e5b') in 0.0170289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.172506 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d221eb1d07698bde6ea441356b2d45f') in 0.0085709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.943225 seconds.
+  path: Assets/Prefabs/Human Deck/generator_card.prefab
+  artifactKey: Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/generator_card.prefab using Guid(1b8d18388e5d8b248a304454980297be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75ac230194133aa988880f0aa902da8f') in 0.0153897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.597372 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48593337420bcb2653a87596b097e217') in 0.0076551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.931374 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c525599c33acf355a0103f2eb5f52b36') in 0.012725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.748131 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08c5502b8805530e21479dfdfabdb45c') in 0.0072765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.947385 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '515adc3137a29120816721428ed4c6fc') in 0.0134043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.569111 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03b86525845044c59e0a71b2a5af6d7c') in 0.0067405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.949071 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66cb1db638a2a505200dc2c946fd4270') in 0.0147003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.192177 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3fc3a90513e95bf19e9e9463694c076') in 0.0075981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.947196 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2af29041eb25e7118981013cb7f405ef') in 0.013435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.873513 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f53dcf002cb5cb5b439f956772d4cf7e') in 0.0079435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.929488 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f02458a64312fdcbe67af7b49289538a') in 0.0175532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.911959 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8217bd72a344ad620fe2d1c899405cf8') in 0.0073765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.933766 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebf50a1df4c77f85cc88e093b2eedf06') in 0.0134699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.528436 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '384840592222ff0eb1cdc74296113091') in 0.0077062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.948789 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89440d25c4f6b6abab77615e4f76aee8') in 0.0158113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.967830 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a0de0c0e1b432c8b17f5ba430966dfa') in 0.0074086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.918463 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc78ca609d24f70d3e07fea3ccc8faed') in 0.0136876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.499987 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f960338ebe943ee6ac76598ff9a10fca') in 0.007714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.939551 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1da2778aa345831d84705bd2df772e3f') in 0.0131962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.982136 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '565aa7629cb793279cb33acb7698625e') in 0.0082112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.941178 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4035c31460649260747dcde5c4a051c8') in 0.0152897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.433947 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3592c44c5920d16f877d858dd59845b') in 0.0090047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.930460 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a742f59972be3a945de57d8a5c903a3') in 0.0142698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.155401 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff5eabad20099e82fa48b1f5ddcfe86a') in 0.0075662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.946549 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d2e73923c3ee980f374ef3913080a8f') in 0.0156007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.386455 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ecb85f6b359baf985a7516ba8222076') in 0.0086311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.948376 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09abc6595960bbaef2c63c89af571fd1') in 0.0169245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.191261 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a289e7327c643470b9432f630841ee50') in 0.0086103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.945913 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5c47d2de0eb96cda4f2ca51bfdf4c0c') in 0.0132828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.940176 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c030c2403aa92eb318bdea8fb7dd196f') in 0.0076144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.934963 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35140ec0aa42fa7f5c1066cce12df263') in 0.0142369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.206025 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fcfc40b2fea39f91c0cc0a1c71e4c58') in 0.0074527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.945965 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca4f58a682c563c65fe5ed7cc045d8b5') in 0.0149985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.570611 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fa7749f88d4d532e77ffb643bd0b35e') in 0.0077964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.946919 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e64549abbc36fb78c819d8aa3c49268') in 0.0125371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.795399 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7769609afd1a301c72cb6e2447405aa1') in 0.0066393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.947700 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efc8967542763cec15844836cf58fcf3') in 0.0137548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.810117 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '770da8b15a3f3a709fa7f8bc82f1b2d3') in 0.0078489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.933541 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d743879509c91c336b1e33f8805fcba') in 0.0137726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.072717 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b1bae0b0ffcb736ac29d59bfb9aa250') in 0.0088969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.935642 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35daae307826cb7ec00acd4ec85eec9b') in 0.0133625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.574008 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '930582b9cc177a9d967a3d3524f45bbc') in 0.0071147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.945214 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2f3348ed1a0194baf858251f5c4ca0a') in 0.0130925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.007896 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '769f1c02f315102bb2ccbfab105edf28') in 0.0084139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.944651 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bdf59b68b19ae42baca44701d80063d') in 0.0130333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.976570 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2c25cc3c6b11c139fa0f620ff64e4ba') in 0.0077703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.927471 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71333d4b0db0541dc8f3168d9a77b4aa') in 0.0134515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.756806 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00489d9637e339fee791770e953108dc') in 0.0070691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.931332 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c646402625fa9a425f18462b2e1e1442') in 0.0138793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.566875 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9995e6088a9964d84ff455ffa18487e') in 0.0070353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.922128 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c55120ae06c9ae40ee75ad09ce85959') in 0.0148306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.865596 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e8bcf49c98050d41f16a26c4d05d9fb') in 0.0078014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.983596 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2cda64ca5ebdad573caec257e9d493a9') in 0.0174855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.892765 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4e6ff0cc0de7982dd98db3ed5f0413d') in 0.0079642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.941793 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8949dec44c8cc609d468e67c024dce8d') in 0.013526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.792683 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f0be2d1726c2de4e61f78c7d0ca7c20') in 0.0101621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.937884 seconds.
+  path: Assets/Prefabs/Human Deck/shelter_card.prefab
+  artifactKey: Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/shelter_card.prefab using Guid(0ae31493afa78b94b8f0d03bf4bef0ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da9290590f79bbe075912b2952b15482') in 0.0137169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.055113 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e0363e88425b8d91dbe5760cbeab202') in 0.0081046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.939346 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b637741fb1df81844d2e3153db26a8e9') in 0.0153135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.744169 seconds.
+  path: Assets/Prefabs/Nature Deck/barricade_card.prefab
+  artifactKey: Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/barricade_card.prefab using Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dc065c5fed0bc0c4373b75a11ed1391') in 0.0074916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.908117 seconds.
+  path: Assets/Prefabs/Nature Deck/barricade_card 1.prefab
+  artifactKey: Guid(b41e8506cc9430841be015542ac93c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/barricade_card 1.prefab using Guid(b41e8506cc9430841be015542ac93c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45aaefc6e28f567c481e7750aa382dc7') in 0.0073374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.432115 seconds.
+  path: Assets/Prefabs/Nature Deck/barricade_card 2.prefab
+  artifactKey: Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/barricade_card 2.prefab using Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '214bfb53570f3eeeda040ec665bec813') in 0.0089646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.371456 seconds.
+  path: Assets/Prefabs/Nature Deck/barricade_card 3.prefab
+  artifactKey: Guid(80b59687a473a7a4086552ed15cb2af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/barricade_card 3.prefab using Guid(80b59687a473a7a4086552ed15cb2af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9de11477d5f248d772a66d1b5e515e0a') in 0.007371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.306898 seconds.
+  path: Assets/Prefabs/Nature Deck/barricade_card 4.prefab
+  artifactKey: Guid(88e1487db6fad914996cc3cb661f0372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/barricade_card 4.prefab using Guid(88e1487db6fad914996cc3cb661f0372) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce68020b55212a0210755b1af0750dc4') in 0.0072254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.310696 seconds.
+  path: Assets/Prefabs/Nature Deck/barricade_card 5.prefab
+  artifactKey: Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/barricade_card 5.prefab using Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77589c5c76acfbae6027d7425f8a1dc7') in 0.0093247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.312989 seconds.
+  path: Assets/Prefabs/Nature Deck/barricade_card 6.prefab
+  artifactKey: Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/barricade_card 6.prefab using Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a328191cdc76ce0b3da381fa6c154b40') in 0.0072685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.948547 seconds.
+  path: Assets/Prefabs/Nature Deck/barricade_card.prefab
+  artifactKey: Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/barricade_card.prefab using Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63d7168a3e2ec0834f7dbe76e0b57101') in 0.0211541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Nature Deck/barricade_card 4.prefab
+  artifactKey: Guid(88e1487db6fad914996cc3cb661f0372) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/barricade_card 4.prefab using Guid(88e1487db6fad914996cc3cb661f0372) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5b6c13c4a97b61498352b747df7bff2') in 0.0163119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Nature Deck/barricade_card 2.prefab
+  artifactKey: Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/barricade_card 2.prefab using Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '538b005c14fb309d08c5ecdcb740915f') in 0.0148125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Nature Deck/barricade_card 5.prefab
+  artifactKey: Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/barricade_card 5.prefab using Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ba2b7688afe5bd855d08a78e4cdd1ed') in 0.0152121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.532950 seconds.
+  path: Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab
+  artifactKey: Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab using Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e192c09f40ebe41aa7a1f00135d70eaa') in 0.0078498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.926990 seconds.
+  path: Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab
+  artifactKey: Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab using Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f35e015852ce750f50e3967ea210ec5') in 0.015865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.008170 seconds.
+  path: Assets/Prefabs/Nature Deck/seismic_echoes_card 1.prefab
+  artifactKey: Guid(b41e8506cc9430841be015542ac93c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/seismic_echoes_card 1.prefab using Guid(b41e8506cc9430841be015542ac93c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4505530bc8e77a8799db62564ca2e92d') in 0.0085986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.925987 seconds.
+  path: Assets/Prefabs/Nature Deck/seismic_echoes_card 1.prefab
+  artifactKey: Guid(b41e8506cc9430841be015542ac93c49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/seismic_echoes_card 1.prefab using Guid(b41e8506cc9430841be015542ac93c49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '360c30ff9ceb6071204080ebc981516e') in 0.0160466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.503979 seconds.
+  path: Assets/Prefabs/Nature Deck/parched_earth_card.prefab
+  artifactKey: Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/parched_earth_card.prefab using Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f666a6ec2af420f8e834d59902c1059') in 0.0075986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.926678 seconds.
+  path: Assets/Prefabs/Nature Deck/parched_earth_card.prefab
+  artifactKey: Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/parched_earth_card.prefab using Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0cb97a877d600bb7a7e303a3f140e84') in 0.014991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.520267 seconds.
+  path: Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab
+  artifactKey: Guid(80b59687a473a7a4086552ed15cb2af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab using Guid(80b59687a473a7a4086552ed15cb2af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96a8cfa726d62f47c3941e3db5fa6846') in 0.0078666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.929951 seconds.
+  path: Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab
+  artifactKey: Guid(80b59687a473a7a4086552ed15cb2af1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab using Guid(80b59687a473a7a4086552ed15cb2af1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed0c1fc18ef6730108de24ea8fb9bbb9') in 0.0143438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.631106 seconds.
+  path: Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab
+  artifactKey: Guid(88e1487db6fad914996cc3cb661f0372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab using Guid(88e1487db6fad914996cc3cb661f0372) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afe80f410d69af637704f9a4de3207f0') in 0.0076157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.926516 seconds.
+  path: Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab
+  artifactKey: Guid(88e1487db6fad914996cc3cb661f0372) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab using Guid(88e1487db6fad914996cc3cb661f0372) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85f61b0af7c1c08b18975918247fa93d') in 0.0143304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.629039 seconds.
+  path: Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab
+  artifactKey: Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab using Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a6b13de5c51a5e083db373a5c4b83a8') in 0.0080476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.924844 seconds.
+  path: Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab
+  artifactKey: Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab using Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4211ed9d7ea507b2d07e354180f7b7a') in 0.0140171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.283253 seconds.
+  path: Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab
+  artifactKey: Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab using Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8343e72cc211ef0da0eca926fb96c807') in 0.0081428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.904018 seconds.
+  path: Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab
+  artifactKey: Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab using Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '192a2b1f9a8e53adc12d8943db2b4102') in 0.0143912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.272410 seconds.
+  path: Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab
+  artifactKey: Guid(b41e8506cc9430841be015542ac93c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab using Guid(b41e8506cc9430841be015542ac93c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32e748b9d9eaf516052ebf3ea71fc9ab') in 0.0069696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.924391 seconds.
+  path: Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab
+  artifactKey: Guid(b41e8506cc9430841be015542ac93c49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab using Guid(b41e8506cc9430841be015542ac93c49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b567bab0a68f3a62839d7192ae94a568') in 0.0163905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.238173 seconds.
+  path: Assets/Materials/Nature Deck/breath_of_boreas_mat.mat
+  artifactKey: Guid(62ce9f819e602e44db8f57d7051b0c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/breath_of_boreas_mat.mat using Guid(62ce9f819e602e44db8f57d7051b0c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34d8004dac227cbae0bfab21b4a301ae') in 0.0158504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/Nature Deck/fury_of_enceladus_mat.mat
+  artifactKey: Guid(00a4309339bd0e747aa45f312d3c347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/fury_of_enceladus_mat.mat using Guid(00a4309339bd0e747aa45f312d3c347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0c777f835885e9b09d563e419d6a43a') in 0.0151843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/Nature Deck/rapid_intensification_mat.mat
+  artifactKey: Guid(25c2f9e26f938304ea468fd7e2033aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/rapid_intensification_mat.mat using Guid(25c2f9e26f938304ea468fd7e2033aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6416bcbaa4e49377c5be5cbfe3cedaa5') in 0.0168342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/Nature Deck/torrent_of_the_naiads_mat.mat
+  artifactKey: Guid(ad125129978324c47959df724e5aa833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/torrent_of_the_naiads_mat.mat using Guid(ad125129978324c47959df724e5aa833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d4588cfc6d822c15a75cce4d9e1aa57') in 0.0169712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Materials/Nature Deck/parched_earth_mat.mat
+  artifactKey: Guid(5ee3708f433700540bd2303200642cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/parched_earth_mat.mat using Guid(5ee3708f433700540bd2303200642cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a1be2bea490708da769b9294b9635ab') in 0.0213041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/Nature Deck/seismic_echoes_mat.mat
+  artifactKey: Guid(20642e2af02a1544a9dfcb1987b1f97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Nature Deck/seismic_echoes_mat.mat using Guid(20642e2af02a1544a9dfcb1987b1f97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b673b46d887d169818e2aa01bb01ace4') in 0.0183474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.268326 seconds.
+  path: Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab
+  artifactKey: Guid(88e1487db6fad914996cc3cb661f0372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab using Guid(88e1487db6fad914996cc3cb661f0372) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81664a58c0b95383aacbeecc1d973820') in 0.0139766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.930492 seconds.
+  path: Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab
+  artifactKey: Guid(88e1487db6fad914996cc3cb661f0372) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab using Guid(88e1487db6fad914996cc3cb661f0372) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2e83da561fff18cf32b7dc887108aaf') in 0.017532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.153510 seconds.
+  path: Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab
+  artifactKey: Guid(88e1487db6fad914996cc3cb661f0372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab using Guid(88e1487db6fad914996cc3cb661f0372) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f7cfa35e7abb51c79b2131afbc37934') in 0.0087309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.938788 seconds.
+  path: Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab
+  artifactKey: Guid(88e1487db6fad914996cc3cb661f0372) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab using Guid(88e1487db6fad914996cc3cb661f0372) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8582bf5da70131154357a640d87221b') in 0.0148146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.241351 seconds.
+  path: Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab
+  artifactKey: Guid(88e1487db6fad914996cc3cb661f0372) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab using Guid(88e1487db6fad914996cc3cb661f0372) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96084e83e253cdd4987454c29a09fba2') in 0.0149892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.904674 seconds.
+  path: Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab
+  artifactKey: Guid(88e1487db6fad914996cc3cb661f0372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/torrent_of_the_naiads_card.prefab using Guid(88e1487db6fad914996cc3cb661f0372) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c124b2864031ed68109a16d30424c38') in 0.0082345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.050005 seconds.
+  path: Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab
+  artifactKey: Guid(b41e8506cc9430841be015542ac93c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab using Guid(b41e8506cc9430841be015542ac93c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd80a037e2869a0e7f930de626167ae89') in 0.0149277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.925216 seconds.
+  path: Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab
+  artifactKey: Guid(b41e8506cc9430841be015542ac93c49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab using Guid(b41e8506cc9430841be015542ac93c49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d8cc2393a0f2d349b72f70b8fca6211') in 0.0139111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.854183 seconds.
+  path: Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab
+  artifactKey: Guid(b41e8506cc9430841be015542ac93c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab using Guid(b41e8506cc9430841be015542ac93c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d15b6449be8830456d09898079e6817') in 0.0081951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.936184 seconds.
+  path: Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab
+  artifactKey: Guid(b41e8506cc9430841be015542ac93c49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab using Guid(b41e8506cc9430841be015542ac93c49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1d4f267e9d47374f190906a717dd252') in 0.0191295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.090529 seconds.
+  path: Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab
+  artifactKey: Guid(b41e8506cc9430841be015542ac93c49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab using Guid(b41e8506cc9430841be015542ac93c49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8f33952ac88e8365078c6847838e11e') in 0.0224053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.189610 seconds.
+  path: Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab
+  artifactKey: Guid(b41e8506cc9430841be015542ac93c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/seismic_echoes_card.prefab using Guid(b41e8506cc9430841be015542ac93c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ad7c885cf8adce68bbfb3f2cb9531a6') in 0.0089727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.743280 seconds.
+  path: Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab
+  artifactKey: Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab using Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '551d114cbf3ce1883d0f625e234be7b1') in 0.0141115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.929034 seconds.
+  path: Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab
+  artifactKey: Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab using Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b10987db6329ae5efa9c7339dc2ff9f') in 0.0168724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.005662 seconds.
+  path: Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab
+  artifactKey: Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab using Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff27244e1b8a24b740c5e7490988aa62') in 0.0086501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.946485 seconds.
+  path: Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab
+  artifactKey: Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab using Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2008926dd4c66a68ac11eeaac1db5bfb') in 0.0141404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.439143 seconds.
+  path: Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab
+  artifactKey: Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab using Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60d186e6391b0f94a19cceb04ca07c6e') in 0.0080469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942667 seconds.
+  path: Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab
+  artifactKey: Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/rapid_intensification_card.prefab using Guid(e1879d87c5349c04a83f2cd3120aed83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86192691790fb5d8aac38d84bc803638') in 0.013532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.212618 seconds.
+  path: Assets/Prefabs/Nature Deck/parched_earth_card.prefab
+  artifactKey: Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/parched_earth_card.prefab using Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee5d6a279b8d1660c89b23cb9457531f') in 0.0080627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.933819 seconds.
+  path: Assets/Prefabs/Nature Deck/parched_earth_card.prefab
+  artifactKey: Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/parched_earth_card.prefab using Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc174788a9041c509b39a10f9a3e5171') in 0.015142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.669409 seconds.
+  path: Assets/Prefabs/Nature Deck/parched_earth_card.prefab
+  artifactKey: Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/parched_earth_card.prefab using Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e93326a80337d0702abaddd4aa3959da') in 0.0156523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.922962 seconds.
+  path: Assets/Prefabs/Nature Deck/parched_earth_card.prefab
+  artifactKey: Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/parched_earth_card.prefab using Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bc8e4fc3c69bc2ef07269aa149f1685') in 0.0132387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.730079 seconds.
+  path: Assets/Prefabs/Nature Deck/parched_earth_card.prefab
+  artifactKey: Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/parched_earth_card.prefab using Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e89e19676fcd60d4d5666761774820b4') in 0.0105393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940791 seconds.
+  path: Assets/Prefabs/Nature Deck/parched_earth_card.prefab
+  artifactKey: Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/parched_earth_card.prefab using Guid(67a4b10bb5b0e4b42bba396d8e87becc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0fef525b7a0dd33b0d017ca70153e750') in 0.0140447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.288838 seconds.
+  path: Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab
+  artifactKey: Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab using Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b7d0aef953e10d88aafde277f756781') in 0.0154218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.925095 seconds.
+  path: Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab
+  artifactKey: Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab using Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '682e67da4cd8c8668ccddec737e94cb9') in 0.0152632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.104547 seconds.
+  path: Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab
+  artifactKey: Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab using Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b90fc118f0b299df43ce35395e4d88c5') in 0.007806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942002 seconds.
+  path: Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab
+  artifactKey: Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab using Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08a86fe343bbbd8ba4b9abb8758d267a') in 0.0136697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.313939 seconds.
+  path: Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab
+  artifactKey: Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab using Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '547b77fa4a0423b7514c66e7adb03bb4') in 0.0086943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.944978 seconds.
+  path: Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab
+  artifactKey: Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/fury_of_enceladus_card.prefab using Guid(7a53987d47e0c2f45b73aa0f13195097) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43d1a955bf06f734e93497627248c57e') in 0.0158149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.947497 seconds.
+  path: Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab
+  artifactKey: Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab using Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8256326fdd386e5caba9426f95c737d') in 0.0145559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.928807 seconds.
+  path: Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab
+  artifactKey: Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab using Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '324f94f1e3441a4e292b6688e1ab1156') in 0.0140087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.004683 seconds.
+  path: Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab
+  artifactKey: Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab using Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69e28599d1862deea2cd9a5e8fe9edf2') in 0.0086597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.941397 seconds.
+  path: Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab
+  artifactKey: Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab using Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e4b96c0831735b4f5e689cc626d2c5e') in 0.0153237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.579116 seconds.
+  path: Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab
+  artifactKey: Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab using Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9dcd94cbf4633366646853fcf2c381d') in 0.0095186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.826353 seconds.
+  path: Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab
+  artifactKey: Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/flame_of_prometheus_card.prefab using Guid(44a6328e95e83d24c9a6d334c029bf8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dbfbd3dd373715e8cb4b81b5d68f3418') in 0.0137672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.081713 seconds.
+  path: Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab
+  artifactKey: Guid(80b59687a473a7a4086552ed15cb2af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab using Guid(80b59687a473a7a4086552ed15cb2af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '248b1e2d3cc10930410218ce37e7c7e8') in 0.014973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.919210 seconds.
+  path: Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab
+  artifactKey: Guid(80b59687a473a7a4086552ed15cb2af1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab using Guid(80b59687a473a7a4086552ed15cb2af1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1f5d0b24ef79ebc0f49ee9fed30575f') in 0.0161594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.671685 seconds.
+  path: Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab
+  artifactKey: Guid(80b59687a473a7a4086552ed15cb2af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab using Guid(80b59687a473a7a4086552ed15cb2af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69df20416a8c457fadd99799537521ef') in 0.0088338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940085 seconds.
+  path: Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab
+  artifactKey: Guid(80b59687a473a7a4086552ed15cb2af1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab using Guid(80b59687a473a7a4086552ed15cb2af1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32e42c7c54524abb597f28eadc433255') in 0.0137045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.590032 seconds.
+  path: Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab
+  artifactKey: Guid(80b59687a473a7a4086552ed15cb2af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab using Guid(80b59687a473a7a4086552ed15cb2af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85a2884a0b683ce8b1d11dd204ceafee') in 0.0086893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942158 seconds.
+  path: Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab
+  artifactKey: Guid(80b59687a473a7a4086552ed15cb2af1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Nature Deck/breath_of_boreas_card.prefab using Guid(80b59687a473a7a4086552ed15cb2af1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dea6423021552f2c6a8a052a34a8f07b') in 0.0159145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.795383 seconds.
+  path: Assets/Scripts/CardData.cs
+  artifactKey: Guid(c3395cce702c8104da14126a21717b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardData.cs using Guid(c3395cce702c8104da14126a21717b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '505db2cf3125189e6a4439f2ebc0a79d') in 0.000515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6134 unused Assets / (4.4 MB). Loaded Objects now: 7034.
+Memory consumption went from 141.6 MB to 137.3 MB.
+Total: 13.978200 ms (FindLiveObjects: 1.152100 ms CreateObjectMapping: 1.110200 ms MarkObjects: 8.822500 ms  DeleteObjects: 2.892100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.694551 seconds.
+  path: Assets/Scripts/CardData.cs
+  artifactKey: Guid(c3395cce702c8104da14126a21717b46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/CardData.cs using Guid(c3395cce702c8104da14126a21717b46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57f7dd92136f06ee608464b7654a6fb2') in 0.0132562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6133 unused Assets / (4.8 MB). Loaded Objects now: 7034.
+Memory consumption went from 141.6 MB to 136.7 MB.
+Total: 12.800600 ms (FindLiveObjects: 0.708600 ms CreateObjectMapping: 0.606600 ms MarkObjects: 7.374400 ms  DeleteObjects: 4.109700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.551735 seconds.
+  path: Assets/Scripts/CardData.cs
+  artifactKey: Guid(c3395cce702c8104da14126a21717b46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/CardData.cs using Guid(c3395cce702c8104da14126a21717b46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71f0c8563f8672e5e1fc4829f21c35ae') in 0.011757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.595 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.567 seconds
+Domain Reload Profiling: 1163ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (568ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6139 unused Assets / (4.5 MB). Loaded Objects now: 6930.
+Memory consumption went from 149.0 MB to 144.5 MB.
+Total: 11.012300 ms (FindLiveObjects: 1.083900 ms CreateObjectMapping: 1.170100 ms MarkObjects: 6.264600 ms  DeleteObjects: 2.492900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.973223 seconds.
+  path: Assets/Prefabs/Human Deck/barricade_card.prefab
+  artifactKey: Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/barricade_card.prefab using Guid(c507921be00ca1440966cc92c4fa42ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb24bd407c1a2515e4e1def315c30e00') in 0.3944661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Human Deck/power_cut_off_card.prefab
+  artifactKey: Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/power_cut_off_card.prefab using Guid(212315bc5d5bf02469357c06306a6fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04029ddc6609c45ba909594e4c4fd497') in 0.0104019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Human Deck/sandbags_card.prefab
+  artifactKey: Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/sandbags_card.prefab using Guid(603c1f164e99e4341b330683868e6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9c18e90f9faba6a4ff112546fb4ed41') in 0.0079531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Prefabs/Human Deck/stay_hydrated_card.prefab
+  artifactKey: Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Human Deck/stay_hydrated_card.prefab using Guid(f9c05447b35485546a52aeff732f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e8b8ecf2ff896278963123c85569b56') in 0.0083925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
