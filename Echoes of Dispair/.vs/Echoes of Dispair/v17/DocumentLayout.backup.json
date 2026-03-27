@@ -3,36 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\Echoes of Dispair\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|c:\\users\\danie\\echoes of dispair\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|c:\\users\\danie\\echoes of dispair\\assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Echoes of Dispair\\assets\\scripts\\cardpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Echoes of Dispair\\assets\\scripts\\boardslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boardslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|c:\\users\\danie\\echoes of dispair\\assets\\scripts\\camerachange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerachange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Echoes of Dispair\\assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Echoes of Dispair\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Echoes of Dispair\\assets\\scripts\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Echoes of Dispair\\assets\\scripts\\handdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Echoes of Dispair\\assets\\scripts\\carddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Echoes of Dispair\\assets\\scripts\\deckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Echoes of Dispair\\assets\\scripts\\handdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Echoes of Dispair\\assets\\scripts\\cardpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Echoes of Dispair\\assets\\scripts\\interactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Echoes of Dispair\\assets\\scripts\\camerachange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerachange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Echoes of Dispair\\assets\\scripts\\deckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,56 +59,91 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemyManager.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\EnemyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyManager.cs",
+              "ToolTip": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\EnemyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T16:53:09.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TurnManager.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\TurnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TurnManager.cs",
+              "ToolTip": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\TurnManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TurnManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T16:45:21.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InteractionManager.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\InteractionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractionManager.cs",
+              "ToolTip": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\InteractionManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InteractionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T05:18:12.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA5wCgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T05:06:27.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T05:06:27.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BoardSlot.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\BoardSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BoardSlot.cs",
               "ToolTip": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\BoardSlot.cs",
               "RelativeToolTip": "Assets\\Scripts\\BoardSlot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T04:53:58.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T04:53:58.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "HandDisplay.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\HandDisplay.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HandDisplay.cs",
               "ToolTip": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\HandDisplay.cs",
               "RelativeToolTip": "Assets\\Scripts\\HandDisplay.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T01:29:31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CardData.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\CardData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CardData.cs",
               "ToolTip": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\CardData.cs",
               "RelativeToolTip": "Assets\\Scripts\\CardData.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwB4AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-22T17:21:47.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "CardPreview.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\CardPreview.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CardPreview.cs",
@@ -108,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "DeckManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\DeckManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DeckManager.cs",
@@ -120,28 +167,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "HandManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\HandManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HandManager.cs",
               "ToolTip": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\HandManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\HandManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T17:59:00.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "CameraChange.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\CameraChange.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraChange.cs",
               "ToolTip": "C:\\Users\\danie\\Echoes of Dispair\\Assets\\Scripts\\CameraChange.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraChange.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T17:01:31.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T17:01:31.211Z"
             }
           ]
         }

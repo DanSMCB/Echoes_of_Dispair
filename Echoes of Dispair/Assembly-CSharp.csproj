@@ -61,6 +61,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.61f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\EnemyManager.cs" />
+    <Compile Include="Assets\Scripts\DisasterCombinationManager.cs" />
+    <Compile Include="Assets\Scripts\TurnManager.cs" />
     <Compile Include="Assets\Scripts\HandDisplay.cs" />
     <Compile Include="Assets\Scripts\CardPreview.cs" />
     <Compile Include="Assets\Scripts\CardHoverSystem.cs" />

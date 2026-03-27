@@ -434,10 +434,13 @@
 "Assets/Scripts/CardHoverSystem.cs"
 "Assets/Scripts/CardPreview.cs"
 "Assets/Scripts/DeckManager.cs"
+"Assets/Scripts/DisasterCombinationManager.cs"
+"Assets/Scripts/EnemyManager.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/HandDisplay.cs"
 "Assets/Scripts/HandManager.cs"
 "Assets/Scripts/InteractionManager.cs"
+"Assets/Scripts/TurnManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic

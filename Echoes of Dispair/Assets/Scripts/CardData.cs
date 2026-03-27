@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CardData : MonoBehaviour
@@ -9,11 +10,11 @@ public class CardData : MonoBehaviour
 
     [HideInInspector] public bool isInHand = true;
     [HideInInspector] public BoardSlot currentSlot = null;
+    public GameObject selectionHighlight;
 
     public void SetHover(bool state)
     {
         isHovered = state;
-
 
         if (state)
         {
@@ -38,5 +39,11 @@ public class CardData : MonoBehaviour
     {
         isInHand = true;
         currentSlot = null;
+    }
+
+    public void SetSelected(bool value)
+    {
+        if (selectionHighlight != null)
+            selectionHighlight.SetActive(value);
     }
 }

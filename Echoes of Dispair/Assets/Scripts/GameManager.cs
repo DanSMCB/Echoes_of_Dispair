@@ -28,12 +28,15 @@ public class GameManager : MonoBehaviour
 
     public void SelectCard(GameObject card)
     {
+        if (!TurnManager.Instance.isPlayerTurn)
+            return;
+
         if (selectedCard != null)
             return;
 
         CardData cardData = card.GetComponent<CardData>();
-        if (cardData == null || !cardData.isInHand)
-            return;
+        if (cardData != null)
+            cardData.SetSelected(true);
 
         selectedCard = card;
 
@@ -55,8 +58,11 @@ public class GameManager : MonoBehaviour
         selectedCard.transform.localScale = new Vector3(3f, 3f, 3f);
 
         CardData cardData = selectedCard.GetComponent<CardData>();
-        if (cardData != null)
+        if (cardData != null) { 
             cardData.SetPlacedOnBoard(slot);
+            cardData.SetSelected(false);
+        }
+            
 
         slot.PlaceCard(selectedCard);
 
@@ -69,6 +75,13 @@ public class GameManager : MonoBehaviour
 
     public void CancelSelection()
     {
+        if (selectedCard != null)
+        {
+            CardData cardData = selectedCard.GetComponent<CardData>();
+            if (cardData != null)
+                cardData.SetSelected(false);
+        }
+
         selectedCard = null;
         HideAllSlots();
         cameraChange.SwitchToPlayerView();
