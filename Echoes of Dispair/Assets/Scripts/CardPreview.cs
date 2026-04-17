@@ -11,17 +11,18 @@ public class CardPreview : MonoBehaviour
     void Awake()
     {
         Instance = this;
-        previewObject.SetActive(false);
+        previewImage.enabled = false;
     }
 
     public void ShowCard(Sprite cardSprite)
     {
         previewImage.sprite = cardSprite;
-        previewObject.SetActive(true);
+        previewImage.enabled = true;
+
     }
 
     public void HideCard()
     {
-        previewObject.SetActive(false);
+        previewImage.enabled = false;
     }
 }

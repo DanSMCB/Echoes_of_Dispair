@@ -119,5 +119,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardSprite: {fileID: 21300000, guid: 089f500e64bc9f64d82c1e9f19b9d119, type: 3}
   cardName: seismic
+  currentHealth: 0
+  maxHealth: 0
+  cardType: 0
+  natureCardType: 5
+  humanCardType: 0
   isInHand: 1
   currentSlot: {fileID: 0}
+  selectionHighlight: {fileID: 0}

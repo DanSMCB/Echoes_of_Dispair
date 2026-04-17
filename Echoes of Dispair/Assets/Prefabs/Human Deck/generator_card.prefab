@@ -247,6 +247,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardSprite: {fileID: 21300000, guid: 716e9abebf548ae468aeac7d90f5c226, type: 3}
   cardName: generator
+  currentHealth: 0
+  maxHealth: 0
+  cardType: 1
+  natureCardType: 0
+  humanCardType: 1
   isInHand: 1
   currentSlot: {fileID: 0}
   selectionHighlight: {fileID: 4086496967031144273}

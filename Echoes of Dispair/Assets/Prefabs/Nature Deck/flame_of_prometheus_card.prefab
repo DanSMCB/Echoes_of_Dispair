@@ -119,5 +119,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardSprite: {fileID: 21300000, guid: a5df0086fa795c14da0657db6ec954a2, type: 3}
   cardName: prometheus
+  currentHealth: 0
+  maxHealth: 0
+  cardType: 0
+  natureCardType: 4
+  humanCardType: 0
   isInHand: 1
   currentSlot: {fileID: 0}
+  selectionHighlight: {fileID: 0}

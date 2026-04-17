@@ -6,6 +6,13 @@ public class CardData : MonoBehaviour
     public Sprite cardSprite;
     public string cardName;
 
+    public int currentHealth = 0;
+    public int maxHealth = 0;
+
+    public CardType cardType;
+    public NatureCardType natureCardType;
+    public HumanCardType humanCardType;
+
     private bool isHovered = false;
 
     [HideInInspector] public bool isInHand = true;

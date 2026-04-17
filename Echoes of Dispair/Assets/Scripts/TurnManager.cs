@@ -26,6 +26,7 @@ public class TurnManager : MonoBehaviour
 
     public void EndEnemyTurn()
     {
+        CityManager.Instance.AdvanceDisastersOneTurn();
         isPlayerTurn = true;
         StartPlayerTurn();
     }

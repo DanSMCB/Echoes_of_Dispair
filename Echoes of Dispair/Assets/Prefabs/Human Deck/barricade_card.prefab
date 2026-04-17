@@ -263,6 +263,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardSprite: {fileID: 21300000, guid: bdf281b3b184e1d48b73f0f5e3bf8cff, type: 3}
   cardName: barricade
+  currentHealth: 0
+  maxHealth: 0
+  cardType: 1
+  natureCardType: 0
+  humanCardType: 8
   isInHand: 1
   currentSlot: {fileID: 0}
   selectionHighlight: {fileID: 6869470461583968079}

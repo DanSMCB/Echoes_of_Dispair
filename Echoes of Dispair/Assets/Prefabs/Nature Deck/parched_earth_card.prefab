@@ -119,5 +119,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardSprite: {fileID: 21300000, guid: 651f23255b9825d4a8ad91e092ac97e4, type: 3}
   cardName: parched
+  currentHealth: 0
+  maxHealth: 0
+  cardType: 0
+  natureCardType: 6
+  humanCardType: 0
   isInHand: 1
   currentSlot: {fileID: 0}
+  selectionHighlight: {fileID: 0}

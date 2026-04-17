@@ -61,6 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.61f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameEnum.cs" />
     <Compile Include="Assets\Scripts\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\DisasterCombinationManager.cs" />
     <Compile Include="Assets\Scripts\TurnManager.cs" />
@@ -69,9 +70,12 @@
     <Compile Include="Assets\Scripts\CardHoverSystem.cs" />
     <Compile Include="Assets\Scripts\HandManager.cs" />
     <Compile Include="Assets\Scripts\CardData.cs" />
+    <Compile Include="Assets\Scripts\DisasterInstance.cs" />
     <Compile Include="Assets\Scripts\DeckManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\CityManager.cs" />
     <Compile Include="Assets\Scripts\BoardSlot.cs" />
+    <Compile Include="Assets\Scripts\CityState.cs" />
     <Compile Include="Assets\Scripts\InteractionManager.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\CameraChange.cs" />

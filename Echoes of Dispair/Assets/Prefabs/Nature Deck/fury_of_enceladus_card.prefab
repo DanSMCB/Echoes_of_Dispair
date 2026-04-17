@@ -119,5 +119,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardSprite: {fileID: 21300000, guid: b8bedc4f833d1d04da75c3544932535f, type: 3}
   cardName: enceladus
+  currentHealth: 0
+  maxHealth: 0
+  cardType: 0
+  natureCardType: 2
+  humanCardType: 0
   isInHand: 1
   currentSlot: {fileID: 0}
+  selectionHighlight: {fileID: 0}

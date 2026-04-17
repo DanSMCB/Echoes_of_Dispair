@@ -119,5 +119,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardSprite: {fileID: 21300000, guid: c560cd4a03a95c248ac74355ccf880ef, type: 3}
   cardName: intensification
+  currentHealth: 0
+  maxHealth: 0
+  cardType: 0
+  natureCardType: 7
+  humanCardType: 0
   isInHand: 1
   currentSlot: {fileID: 0}
+  selectionHighlight: {fileID: 0}

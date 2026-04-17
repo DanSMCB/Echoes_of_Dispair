@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -71,6 +72,26 @@ public class GameManager : MonoBehaviour
         HideAllSlots();
         handManager.RefreshHand();
         cameraChange.SwitchToPlayerView();
+    }
+
+    public List<CardData> GetCardsInCity(int cityIndex)
+    {
+        List<CardData> cards = new List<CardData>();
+
+        foreach (BoardSlot slot in boardSlots)
+        {
+            if (slot.cityIndex != cityIndex)
+                continue;
+
+            if (slot.currentCard == null)
+                continue;
+
+            CardData card = slot.currentCard.GetComponent<CardData>();
+            if (card != null)
+                cards.Add(card);
+        }
+
+        return cards;
     }
 
     public void CancelSelection()

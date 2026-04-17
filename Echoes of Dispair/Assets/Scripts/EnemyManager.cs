@@ -27,8 +27,16 @@ public class EnemyManager : MonoBehaviour
             emptySlot.PlaceCard(card);
 
             CardData data = card.GetComponent<CardData>();
-            if (data != null)
+            if (data != null) { 
                 data.SetPlacedOnBoard(emptySlot);
+                if (data.cardType == CardType.Nature)
+                {
+                    CityManager.Instance.ResolveNatureCard(data, emptySlot.cityIndex);
+                }
+            }
+            Debug.Log("Inimigo jogou " + data.cardName + " na cidade " + emptySlot.cityIndex);
+
+
         }
 
         TurnManager.Instance.EndEnemyTurn();

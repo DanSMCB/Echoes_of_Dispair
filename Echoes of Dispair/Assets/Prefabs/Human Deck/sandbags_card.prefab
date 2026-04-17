@@ -242,6 +242,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardSprite: {fileID: 21300000, guid: d88f1b383039c78458b89d22137fcc40, type: 3}
   cardName: sandbags
+  currentHealth: 0
+  maxHealth: 0
+  cardType: 1
+  natureCardType: 0
+  humanCardType: 7
   isInHand: 1
   currentSlot: {fileID: 0}
   selectionHighlight: {fileID: 3442050884834289240}
