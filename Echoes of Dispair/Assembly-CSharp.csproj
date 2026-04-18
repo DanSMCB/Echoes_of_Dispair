@@ -72,10 +72,12 @@
     <Compile Include="Assets\Scripts\CardData.cs" />
     <Compile Include="Assets\Scripts\DisasterInstance.cs" />
     <Compile Include="Assets\Scripts\DeckManager.cs" />
+    <Compile Include="Assets\Scripts\PopulationEvacuationRisk.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\CityManager.cs" />
     <Compile Include="Assets\Scripts\BoardSlot.cs" />
     <Compile Include="Assets\Scripts\CityState.cs" />
+    <Compile Include="Assets\Scripts\InstructionUI.cs" />
     <Compile Include="Assets\Scripts\InteractionManager.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\CameraChange.cs" />

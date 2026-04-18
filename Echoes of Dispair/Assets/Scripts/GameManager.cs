@@ -12,6 +12,11 @@ public class GameManager : MonoBehaviour
 
     private GameObject selectedCard = null;
 
+    private bool isEvacuationMode = false;
+    private int evacuationSourceCityIndex = -1;
+    private GameObject selectedPopulationToMove = null;
+    private GameObject pendingEvacuationCard = null;
+
     void Awake()
     {
         Instance = this;
@@ -53,6 +58,8 @@ public class GameManager : MonoBehaviour
         if (slot == null || !slot.IsEmpty())
             return;
 
+        GameObject cardToPlace = selectedCard;
+
         selectedCard.transform.SetParent(slot.transform);
         selectedCard.transform.localPosition = Vector3.zero;
         selectedCard.transform.localRotation = Quaternion.Euler(-90f, 90f, 0f);
@@ -62,16 +69,42 @@ public class GameManager : MonoBehaviour
         if (cardData != null) { 
             cardData.SetPlacedOnBoard(slot);
             cardData.SetSelected(false);
+
+            if (cardData.cardType == CardType.Human)
+            {
+                if (cardData.humanCardType == HumanCardType.Evacuation)
+                {
+                    slot.PlaceCard(cardToPlace);
+
+                    selectedCard = null;
+                    HideAllSlots();
+                    handManager.RefreshHand();
+
+                    StartEvacuationMode(cardToPlace, slot.cityIndex);
+                    return;
+                }
+                else
+                {
+                    CityManager.Instance.ResolveHumanCard(cardData, slot.cityIndex);
+
+                    slot.PlaceCard(cardToPlace);
+
+                    selectedCard = null;
+                    HideAllSlots();
+                    handManager.RefreshHand();
+                    cameraChange.SwitchToPlayerView();
+                    return;
+                }
+            }
         }
             
-
-        slot.PlaceCard(selectedCard);
-
         selectedCard = null;
 
+
+        /*slot.PlaceCard(selectedCard);
         HideAllSlots();
         handManager.RefreshHand();
-        cameraChange.SwitchToPlayerView();
+        cameraChange.SwitchToPlayerView();*/
     }
 
     public List<CardData> GetCardsInCity(int cityIndex)
@@ -96,6 +129,30 @@ public class GameManager : MonoBehaviour
 
     public void CancelSelection()
     {
+        if (isEvacuationMode)
+        {
+            isEvacuationMode = false;
+            evacuationSourceCityIndex = -1;
+            selectedPopulationToMove = null;
+
+            if (pendingEvacuationCard != null)
+            {
+                CardData evacCardData = pendingEvacuationCard.GetComponent<CardData>();
+                if (evacCardData != null && evacCardData.currentSlot != null)
+                {
+                    evacCardData.currentSlot.RemoveCard();
+                }
+
+                Destroy(pendingEvacuationCard);
+                pendingEvacuationCard = null;
+            }
+
+            HideAllSlots();
+            cameraChange.SwitchToPlayerView();
+            InstructionUI.Instance.ClearInstruction();
+            return;
+        }
+
         if (selectedCard != null)
         {
             CardData cardData = selectedCard.GetComponent<CardData>();
@@ -122,5 +179,149 @@ public class GameManager : MonoBehaviour
         {
             slot.SetAvailable(false);
         }
+    }
+
+
+    //Evacuation ----------------------------------------------
+    void StartEvacuationMode(GameObject evacuationCard, int sourceCityIndex)
+    {
+        isEvacuationMode = true;
+        evacuationSourceCityIndex = sourceCityIndex;
+        selectedPopulationToMove = null;
+        pendingEvacuationCard = evacuationCard;
+
+        cameraChange.SwitchToBoardView();
+
+        Debug.Log("Modo evacuação iniciado para a cidade " + sourceCityIndex);
+        InstructionUI.Instance.ShowInstruction("Select a population card you want to evacuate.");
+    }
+
+    public void SelectPopulationForEvacuation(GameObject populationCard)
+    {
+        if (!isEvacuationMode)
+            return;
+
+        CardData cardData = populationCard.GetComponent<CardData>();
+        if (cardData == null || cardData.cardType != CardType.Population)
+            return;
+
+        BoardSlot slot = cardData.currentSlot;
+        if (slot == null)
+            return;
+
+        if (slot.cityIndex != evacuationSourceCityIndex)
+        {
+            Debug.Log("Só podes evacuar uma população da cidade de origem.");
+            return;
+        }
+
+        selectedPopulationToMove = populationCard;
+
+        Debug.Log("População selecionada para evacuar da cidade " + evacuationSourceCityIndex);
+
+        ShowEvacuationDestinationSlots();
+        InstructionUI.Instance.ShowInstruction("Select a slot in the city you want the population to evacuate to.");
+    }
+
+    void ShowEvacuationDestinationSlots()
+    {
+        foreach (BoardSlot slot in boardSlots)
+        {
+            bool validDestination =
+                slot.IsEmpty() &&
+                slot.cityIndex != evacuationSourceCityIndex &&
+                !slot.belongsToEnemy;
+
+            slot.SetAvailable(validDestination);
+        }
+    }
+
+    public void PlaceEvacuatedPopulation(BoardSlot destinationSlot)
+    {
+        if (!isEvacuationMode)
+            return;
+
+        if (selectedPopulationToMove == null)
+        {
+            Debug.Log("Nenhuma população foi selecionada para evacuar.");
+            return;
+        }
+
+        if (destinationSlot == null || !destinationSlot.IsEmpty())
+            return;
+
+        if (destinationSlot.cityIndex == evacuationSourceCityIndex)
+        {
+            Debug.Log("A evacuação tem de ir para outra cidade.");
+            return;
+        }
+
+        int sourceCity = evacuationSourceCityIndex;
+        int destinationCity = destinationSlot.cityIndex;
+
+        int sourceElevation = CityManager.Instance.GetCityElevation(sourceCity);
+        int destinationElevation = CityManager.Instance.GetCityElevation(destinationCity);
+
+        bool tsunamiThreat = CityManager.Instance.CityHasTsunamiThreat(sourceCity);
+
+        if (tsunamiThreat && destinationElevation < sourceElevation)
+        {
+            CityManager.Instance.RegisterEvacuationRisk(
+                selectedPopulationToMove,
+                sourceCity,
+                destinationCity,
+                DisasterType.Tsunami,
+                0.4f
+            );
+        }
+
+
+        CardData populationData = selectedPopulationToMove.GetComponent<CardData>();
+        BoardSlot oldSlot = populationData.currentSlot;
+
+        if (oldSlot != null)
+            oldSlot.RemoveCard();
+
+        selectedPopulationToMove.transform.SetParent(destinationSlot.transform);
+        selectedPopulationToMove.transform.localPosition = Vector3.zero;
+        selectedPopulationToMove.transform.localRotation = Quaternion.Euler(-90f, 90f, 0f);
+        selectedPopulationToMove.transform.localScale = new Vector3(3f, 3f, 3f);
+
+        destinationSlot.PlaceCard(selectedPopulationToMove);
+        populationData.SetPlacedOnBoard(destinationSlot);
+
+        if (pendingEvacuationCard != null)
+        {
+            CardData evacCardData = pendingEvacuationCard.GetComponent<CardData>();
+            if (evacCardData != null && evacCardData.currentSlot != null)
+            {
+                evacCardData.currentSlot.RemoveCard();
+            }
+
+            Destroy(pendingEvacuationCard);
+        }
+
+        EndEvacuationMode();
+
+        Debug.Log("População evacuada para a cidade " + destinationSlot.cityIndex);
+    }
+
+    void EndEvacuationMode()
+    {
+        isEvacuationMode = false;
+        evacuationSourceCityIndex = -1;
+        selectedPopulationToMove = null;
+        pendingEvacuationCard = null;
+
+        HideAllSlots();
+        handManager.RefreshHand();
+        cameraChange.SwitchToPlayerView();
+
+        InstructionUI.Instance.ClearInstruction();
+    }
+
+    public bool IsEvacuationMode()
+    {
+        return isEvacuationMode;
     }
 }

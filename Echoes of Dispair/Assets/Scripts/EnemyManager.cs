@@ -31,12 +31,9 @@ public class EnemyManager : MonoBehaviour
                 data.SetPlacedOnBoard(emptySlot);
                 if (data.cardType == CardType.Nature)
                 {
-                    CityManager.Instance.ResolveNatureCard(data, emptySlot.cityIndex);
+                    CityManager.Instance.ResolveNaturePlay(data, emptySlot);
                 }
             }
-            Debug.Log("Inimigo jogou " + data.cardName + " na cidade " + emptySlot.cityIndex);
-
-
         }
 
         TurnManager.Instance.EndEnemyTurn();

@@ -15,9 +15,8 @@ public enum NatureCardType
     SeismicEchoes,
     ParchedEarth,
     RapidIntensification,
-    AwakeningOfNazamu,
+    AwakeningOfNamazu,
     ScourgeOfHelios,
-    DelugeOfPoseidon,
     CataclysmOfNjord,
     EyeOfHuracan
 }

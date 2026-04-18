@@ -5,6 +5,7 @@ public class InteractionManager : MonoBehaviour
 {
     public LayerMask handCardLayer;
     public LayerMask boardSlotLayer;
+    public LayerMask populationLayer;
 
     void Update()
     {
@@ -12,6 +13,31 @@ public class InteractionManager : MonoBehaviour
             return;
 
         Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+
+        if (GameManager.Instance.IsEvacuationMode())
+        {
+            if (Physics.Raycast(ray, out RaycastHit hitPop, 100f, populationLayer))
+            {
+                CardData popCard = hitPop.transform.GetComponentInParent<CardData>();
+                if (popCard != null && popCard.cardType == CardType.Population)
+                {
+                    GameManager.Instance.SelectPopulationForEvacuation(popCard.gameObject);
+                    return;
+                }
+            }
+
+            if (Physics.Raycast(ray, out RaycastHit hitSlot, 100f, boardSlotLayer))
+            {
+                BoardSlot slot = hitSlot.transform.GetComponentInParent<BoardSlot>();
+                if (slot != null && slot.isAvailable)
+                {
+                    GameManager.Instance.PlaceEvacuatedPopulation(slot);
+                    return;
+                }
+            }
+
+            return;
+        }
 
         if (Physics.Raycast(ray, out RaycastHit hit, 100f, handCardLayer))
         {
