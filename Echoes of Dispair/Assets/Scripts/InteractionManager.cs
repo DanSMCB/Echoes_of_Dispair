@@ -6,9 +6,13 @@ public class InteractionManager : MonoBehaviour
     public LayerMask handCardLayer;
     public LayerMask boardSlotLayer;
     public LayerMask populationLayer;
+    public LayerMask infoLayer;
 
     void Update()
     {
+        if (TurnManager.Instance != null && TurnManager.Instance.gameEnded)
+            return;
+
         if (!Mouse.current.leftButton.wasPressedThisFrame)
             return;
 
@@ -57,6 +61,14 @@ public class InteractionManager : MonoBehaviour
                 GameManager.Instance.PlaceSelectedCard(slot);
                 return;
             }
+        }
+
+        if (Physics.Raycast(ray, out hit, 100f, infoLayer))
+        {
+            GameObject infoObj = hit.transform.gameObject;
+            
+            CityInfoPanel.Instance.ShowCityInfo(infoObj.GetComponent<CityInfoButton>().cityIndex);
+            return;
         }
 
         if (GameManager.Instance.HasSelectedCard())

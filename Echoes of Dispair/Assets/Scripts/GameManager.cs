@@ -34,6 +34,9 @@ public class GameManager : MonoBehaviour
 
     public void SelectCard(GameObject card)
     {
+        if (TurnManager.Instance != null && TurnManager.Instance.gameEnded)
+            return;
+
         if (!TurnManager.Instance.isPlayerTurn)
             return;
 
@@ -74,6 +77,18 @@ public class GameManager : MonoBehaviour
             {
                 if (cardData.humanCardType == HumanCardType.Evacuation)
                 {
+                    if (CityManager.Instance.IsBlackoutActive(slot.cityIndex))
+                    {
+                        Debug.Log("Cannot evacuate from this city during a blackout.");
+
+                        if (InstructionUI.Instance != null)
+                        {
+                            InstructionUI.Instance.ShowInstruction("Evacuation is unavailable in this city due to a blackout.");
+                        }
+
+                        return;
+                    }
+
                     slot.PlaceCard(cardToPlace);
 
                     selectedCard = null;
@@ -86,6 +101,8 @@ public class GameManager : MonoBehaviour
                 else
                 {
                     CityManager.Instance.ResolveHumanCard(cardData, slot.cityIndex);
+                    bool wasEffective = CityManager.Instance.WasHumanCardEffective(cardData, slot.cityIndex);
+                    LearningTracker.Instance.RegisterCardPlay(wasEffective);
 
                     slot.PlaceCard(cardToPlace);
 
@@ -99,12 +116,6 @@ public class GameManager : MonoBehaviour
         }
             
         selectedCard = null;
-
-
-        /*slot.PlaceCard(selectedCard);
-        HideAllSlots();
-        handManager.RefreshHand();
-        cameraChange.SwitchToPlayerView();*/
     }
 
     public List<CardData> GetCardsInCity(int cityIndex)

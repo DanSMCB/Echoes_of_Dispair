@@ -41,8 +41,12 @@ public class CityState
     public int seismicEchoesTurns;
     public GameObject seismicEchoesCard;
 
+    public bool blackoutActive;
+
     public void Initialize(int index, int cityElevation)
     {
+        blackoutActive = false;
+
         cityIndex = index;
         elevation = cityElevation;
 

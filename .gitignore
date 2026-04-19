@@ -1,2 +1,46 @@
-Echoes of Dispair/.vs/
-Echoes of Dispair/Temp/
+# ========== UNITY ==========
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# MemoryCaptures pode crescer muito
+MemoryCaptures/
+
+# ========== IDE ==========
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# ========== OS ==========
+.DS_Store
+Thumbs.db
+
+# ========== UNITY CACHE ==========
+*.apk
+*.aab
+*.unitypackage
+
+# ========== Addressables ==========
+ServerData/
+
+# ========== Visual Studio Code ==========
+.vscode/
+
+# ========== Rider ==========
+.idea/
+
+# ========== Crash logs ==========
+sysinfo.txt

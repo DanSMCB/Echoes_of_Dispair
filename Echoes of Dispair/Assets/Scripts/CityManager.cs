@@ -11,8 +11,8 @@ public class CityManager : MonoBehaviour
     public BoardSlot[] boardSlots;
 
     [Header("Player Health")]
-    public int maxPlayerHealth = 100;
-    public int currentPlayerHealth = 100;
+    public int maxPlayerHealth = 5;
+    public int currentPlayerHealth = 5;
     public TMP_Text healthUI;
 
     [Header("City Elevations")]
@@ -112,11 +112,6 @@ public class CityManager : MonoBehaviour
             currentPlayerHealth = 0;
 
         healthUI.text = currentPlayerHealth.ToString();
-
-        if (currentPlayerHealth == 0)
-        {
-            Debug.Log("Game Over");
-        }
     }
 
     public void ScheduleDisaster(int cityIndex, DisasterType type, int damagePerTurn, int delayTurns, int durationTurns, GameObject sourceCard)
@@ -146,6 +141,7 @@ public class CityManager : MonoBehaviour
         {
             ProcessPendingDisaster(city);
             ProcessActiveDisaster(city);
+            ProcessBlackoutChance(city);
         }
 
         ReduceHumanEffectDurations();
@@ -196,6 +192,11 @@ public class CityManager : MonoBehaviour
 
         if (city.activeDisaster.activeTurnsRemaining <= 0)
         {
+            if (city.activeDisaster.type == DisasterType.Flood)
+            {
+                city.blackoutActive = false;
+            }
+
             if (city.activeDisasterCard != null)
             {
                 BoardSlot slot = city.activeDisasterCard.GetComponent<CardData>()?.currentSlot;
@@ -383,6 +384,8 @@ public class CityManager : MonoBehaviour
             case DisasterType.StrongWind:
             case DisasterType.Depression:
             case DisasterType.TropicalStorm:
+                if (city.blackoutActive)
+                    damage *= 2f;
                 if (city.stayShelteredTurns > 0)
                     damage *= 0.3f;
 
@@ -391,7 +394,9 @@ public class CityManager : MonoBehaviour
                 break;
 
             case DisasterType.Hurricane:
-                    if (city.stayShelteredTurns > 0)
+                if (city.blackoutActive)
+                    damage *= 2f;
+                if (city.stayShelteredTurns > 0)
                         damage *= 0.6f;
     
                     if (city.barricadeTurns > 0)
@@ -399,6 +404,8 @@ public class CityManager : MonoBehaviour
                     break;
 
             case DisasterType.Wildfire:
+                if (city.blackoutActive)
+                    damage *= 2f;
                 if (city.stayShelteredTurns > 0)
                     damage *= 1.6f;
 
@@ -417,6 +424,8 @@ public class CityManager : MonoBehaviour
 
             case DisasterType.Earthquake:
             case DisasterType.Tsunami:
+                if (city.blackoutActive)
+                    damage *= 2f;
                 if (city.stayShelteredTurns > 0)
                     damage *= 1.6f;
 
@@ -425,6 +434,8 @@ public class CityManager : MonoBehaviour
                 break;
 
             case DisasterType.Flood:
+                if (city.blackoutActive)
+                    damage *= 2f;
                 if (city.stayHydratedTurns > 0)
                     damage = 0;
 
@@ -433,6 +444,8 @@ public class CityManager : MonoBehaviour
                 break;
 
             case DisasterType.Drought:
+                if (city.blackoutActive)
+                    damage *= 2f;
                 if (city.stayHydratedTurns > 0)
                     damage = 0;
                 break;
@@ -723,6 +736,44 @@ public class CityManager : MonoBehaviour
         return null;
     }
 
+    void ProcessBlackoutChance(CityState city)
+    {
+        if (city.activeDisaster == null)
+            return;
+
+        if (city.activeDisaster.type != DisasterType.Flood)
+            return;
+
+        if (city.blackoutActive)
+            return;
+
+        if (city.emergencyGeneratorTurns > 0)
+        {
+            city.blackoutActive = false;
+            return;
+        }
+
+        float chance = 0.5f;
+
+        if (Random.value < chance)
+        {
+            city.blackoutActive = true;
+
+            if (InstructionUI.Instance != null)
+            {
+                InstructionUI.Instance.ShowInstruction("A blackout has struck City " + (city.cityIndex + 1) + ".");
+            }
+        }
+    }
+
+    public bool IsBlackoutActive(int cityIndex)
+    {
+        if (cityIndex < 0 || cityIndex >= cities.Length)
+            return false;
+
+        return cities[cityIndex].blackoutActive;
+    }
+
     public string GetDisasterWarningText(DisasterType disasterType, int cityIndex, int turnsUntilStrike)
     {
         int cityNumber = cityIndex + 1;
@@ -759,6 +810,51 @@ public class CityManager : MonoBehaviour
 
             default:
                 return "A disaster will affect city " + cityNumber + " in " + turnsUntilStrike + " " + turnText + ".";
+        }
+    }
+
+    public bool WasHumanCardEffective(CardData card, int cityIndex)
+    {
+        CityState city = cities[cityIndex];
+
+        DisasterType pendingType = city.pendingDisaster != null ? city.pendingDisaster.type : DisasterType.None;
+        DisasterType activeType = city.activeDisaster != null ? city.activeDisaster.type : DisasterType.None;
+
+        switch (card.humanCardType)
+        {
+            case HumanCardType.StaySheltered:
+                return activeType == DisasterType.Depression || pendingType == DisasterType.Depression ||
+                       activeType == DisasterType.Hurricane || pendingType == DisasterType.Hurricane ||
+                       activeType == DisasterType.StrongWind;
+
+            case HumanCardType.PowerCutOff:
+                return activeType == DisasterType.Wildfire || pendingType == DisasterType.Wildfire ||
+                       activeType == DisasterType.Hurricane || pendingType == DisasterType.Hurricane ||
+                       activeType == DisasterType.Earthquake || pendingType == DisasterType.Earthquake ||
+                       activeType == DisasterType.Tsunami || pendingType == DisasterType.Tsunami ||
+                       activeType == DisasterType.Flood || pendingType == DisasterType.Flood;
+
+            case HumanCardType.EmergencyKit:
+                return activeType != DisasterType.None || pendingType != DisasterType.None;
+
+            case HumanCardType.StayHydrated:
+                return activeType == DisasterType.Drought || pendingType == DisasterType.Drought ||
+                       activeType == DisasterType.Wildfire || pendingType == DisasterType.Wildfire;
+
+            case HumanCardType.Sandbags:
+                return activeType == DisasterType.Flood || pendingType == DisasterType.Flood;
+
+            case HumanCardType.Barricade:
+                return activeType == DisasterType.Hurricane || pendingType == DisasterType.Hurricane;
+
+            case HumanCardType.EmergencyGenerator:
+                return city.blackoutActive || pendingType == DisasterType.Flood || activeType == DisasterType.Flood;
+
+            case HumanCardType.Evacuation:
+                return pendingType != DisasterType.None || activeType != DisasterType.None;
+
+            default:
+                return false;
         }
     }
 }
