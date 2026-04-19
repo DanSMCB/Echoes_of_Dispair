@@ -86,7 +86,6 @@ public class MapSequenceController : MonoBehaviour
             paperBaseScale.z
         );
 
-        // Preserve original X/Y so only Z movement changes during the animation
         leftBaseX = leftRoll.localPosition.x;
         rightBaseX = rightRoll.localPosition.x;
 
@@ -96,18 +95,15 @@ public class MapSequenceController : MonoBehaviour
         leftBaseZ = leftRoll.localPosition.z;
         rightBaseZ = rightRoll.localPosition.z;
 
-        // Start centered on the paper, slightly separated
         leftStartZ = mapPaper.localPosition.z - rollStartOffsetFromCenter;
         rightStartZ = mapPaper.localPosition.z + rollStartOffsetFromCenter;
 
-        // End symmetrically away from center
         leftEndZ = mapPaper.localPosition.z - rollEndOffset;
         rightEndZ = mapPaper.localPosition.z + rollEndOffset;
 
         leftRoll.localPosition = new Vector3(leftBaseX, leftBaseY, leftStartZ);
         rightRoll.localPosition = new Vector3(rightBaseX, rightBaseY, rightStartZ);
 
-        // Assume cylinder length is on Y axis
         leftRollLength = leftRoll.localScale.y;
         rightRollLength = rightRoll.localScale.y;
 
@@ -158,14 +154,11 @@ public class MapSequenceController : MonoBehaviour
             float t = Mathf.Clamp01(time / unrollDuration);
             float eased = Mathf.SmoothStep(0f, 1f, t);
 
-            // Symmetrical movement from the center
             float currentLeftZ = Mathf.Lerp(leftStartZ, leftEndZ, eased);
             float currentRightZ = Mathf.Lerp(rightStartZ, rightEndZ, eased);
 
-            // Radius shrink
             float currentRadius = Mathf.Lerp(rollStartRadius, rollEndRadius, eased);
 
-            // Drop downward as radius shrinks so the rolls don't float
             float radiusLost = rollStartRadius - currentRadius;
             float radiusTotalLoss = rollStartRadius - rollEndRadius;
             float dropT = radiusTotalLoss > 0.0001f ? radiusLost / radiusTotalLoss : 1f;
@@ -219,7 +212,6 @@ public class MapSequenceController : MonoBehaviour
 
                 Vector3 camPos = Vector3.Lerp(camStartPos, camEndPos, camT);
 
-                // breathing
                 float yOffset = Mathf.Sin(Time.time * breathSpeed) * breathAmplitude;
 
                 mainCamera.transform.position = new Vector3(
@@ -286,8 +278,6 @@ public class MapSequenceController : MonoBehaviour
 
     private void CheckDecorationReveal(float currentRightZ)
     {
-        // These thresholds assume the right roll travels from center toward positive Z.
-        // Adjust if needed depending on your map size.
         if (!leftShown && currentRightZ > mapPaper.localPosition.z + 1f)
         {
             midShown = true;

@@ -7,42 +7,29 @@ public enum MapNodeType
     FinalDeity
 }
 
+[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(Collider))]
 public class MapNode : MonoBehaviour
 {
     public MapNodeType nodeType;
     public bool isInteractable = false;
 
-    [Header("Renderer")]
-    public SpriteRenderer spriteRenderer;
-    public Collider nodeCollider;
-
-    [Header("Sprite")]
-    public Sprite normalSprite;
-
-    [Header("Materials")]
-    public Material highlightMaterial;
-
     [Header("Colors")]
-    public Color activeColor = Color.white;
+    public Color activeColor = Color.black;
     public Color inactiveColor = new Color(0.35f, 0.35f, 0.35f, 1f);
-    
-    private Material originalMaterial;
+    public Color highlightColor = new Color(1f, 0.2f, 0.254902f, 1f);
+
+    private SpriteRenderer spriteRenderer;
+    private Collider nodeCollider;
 
     private bool isSelected = false;
     private bool isHovered = false;
 
     private void Awake()
     {
-        if (spriteRenderer != null)
-        {
-            originalMaterial = spriteRenderer.sharedMaterial;
-            spriteRenderer.sprite = normalSprite;
-        }
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        nodeCollider = GetComponent<Collider>();
 
-        if (nodeCollider != null)
-            nodeCollider.enabled = true;
-
-        isInteractable = true;
         UpdateVisual();
     }
 
@@ -62,40 +49,28 @@ public class MapNode : MonoBehaviour
         UpdateVisual();
     }
 
+    public void SetHovered(bool value)
+    {
+        isHovered = value;
+        UpdateVisual();
+    }
+
     private void UpdateVisual()
     {
         if (spriteRenderer == null)
             return;
 
-        spriteRenderer.sprite = normalSprite;
-        spriteRenderer.color = isInteractable ? activeColor : inactiveColor;
-
-        if (isSelected || (isHovered && isInteractable))
-            spriteRenderer.material = highlightMaterial;
+        if (isSelected)
+        {
+            spriteRenderer.color = highlightColor;
+        }
+        else if (isHovered && isInteractable)
+        {
+            spriteRenderer.color = highlightColor;
+        }
         else
-            spriteRenderer.material = originalMaterial;
-    }
-
-    private void OnMouseEnter()
-    {
-        Debug.Log("mouse enter");
-        isHovered = true;
-        UpdateVisual();
-    }
-
-    private void OnMouseExit()
-    {
-        Debug.Log("mouse exit");
-        isHovered = false;
-        UpdateVisual();
-    }
-
-    private void OnMouseDown()
-    {
-        Debug.Log("mouse down");
-        if (!isInteractable)
-            return;
-
-        MapManager.Instance.OnNodeClicked(this);
+        {
+            spriteRenderer.color = isInteractable ? activeColor : inactiveColor;
+        }
     }
 }
