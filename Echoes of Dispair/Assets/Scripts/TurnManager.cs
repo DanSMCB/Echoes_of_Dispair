@@ -1,10 +1,13 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class TurnManager : MonoBehaviour
 {
     public static TurnManager Instance;
     public EnemyManager enemyManager;
+    public DeckManager playerDeckManager;
+
     public TMP_Text roundText;
 
     [Header("Turn State")]
@@ -16,9 +19,15 @@ public class TurnManager : MonoBehaviour
     public int targetRoundsToSurvive = 10;
 
     public GameObject playerTurn;
+    public int playerCardsPlayedThisTurn = 0;
+    public int maxCardsPerTurn = 2;
 
     public EndGamePanel victoryPanel;
     public EndGamePanel defeatPanel;
+
+    public UnityEngine.UI.Button endTurnButton;
+
+
 
     void Awake()
     {
@@ -31,6 +40,14 @@ public class TurnManager : MonoBehaviour
         if (gameEnded)
             return;
 
+        if (!isPlayerTurn)
+            return;
+
+        if (GameManager.Instance.IsEvacuationMode())
+            return;
+
+        if (endTurnButton != null) endTurnButton.interactable = false;
+
         isPlayerTurn = false;
         StartEnemyTurn();
     }
@@ -42,7 +59,15 @@ public class TurnManager : MonoBehaviour
 
         playerTurn.SetActive(false);
 
-        enemyManager.PlayTurn();
+        StartCoroutine(EnemyTurnRoutine());
+    }
+
+    IEnumerator EnemyTurnRoutine()
+    {
+        yield return new WaitForSeconds(2f);
+
+        if (enemyManager != null)
+            enemyManager.PlayTurn();
     }
 
     public void EndEnemyTurn()
@@ -69,6 +94,12 @@ public class TurnManager : MonoBehaviour
     void StartPlayerTurn()
     {
         playerTurn.SetActive(true);
+
+        playerCardsPlayedThisTurn = 0;
+
+        if (endTurnButton != null) endTurnButton.interactable = true;
+
+        if (playerDeckManager != null) playerDeckManager.DrawCard();
     }
 
     void AdvanceRound()
@@ -83,6 +114,19 @@ public class TurnManager : MonoBehaviour
         {
             gameEnded = true;
 
+            if (RogueliteManager.Instance != null)
+            {
+                Debug.Log("Current battle stage: " + RogueliteManager.Instance.currentBattleStage);
+                if (RogueliteManager.Instance.currentBattleStage == BattleStage.FirstDeity)
+                {
+                    RogueliteManager.Instance.MarkFirstBattleWon();
+                }
+                else if (RogueliteManager.Instance.currentBattleStage == BattleStage.FinalDeity)
+                {
+                    RogueliteManager.Instance.OnFinalBattleWon();
+                }
+            }
+
             if (victoryPanel != null)
                 victoryPanel.Show();
         }
@@ -93,6 +137,11 @@ public class TurnManager : MonoBehaviour
         if (CityManager.Instance.currentPlayerHealth <= 0)
         {
             gameEnded = true;
+
+            if (RogueliteManager.Instance != null)
+            {
+                RogueliteManager.Instance.ResetRunProgress();
+            }
 
             if (defeatPanel != null)
                 defeatPanel.Show();

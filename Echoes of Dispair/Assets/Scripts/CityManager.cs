@@ -11,8 +11,8 @@ public class CityManager : MonoBehaviour
     public BoardSlot[] boardSlots;
 
     [Header("Player Health")]
-    public int maxPlayerHealth = 5;
-    public int currentPlayerHealth = 5;
+    public int maxPlayerHealth = 30;
+    public int currentPlayerHealth = 30;
     public TMP_Text healthUI;
 
     [Header("City Elevations")]
@@ -37,8 +37,14 @@ public class CityManager : MonoBehaviour
     void Start()
     {
         InitializeCities();
+
+        int bonusHealth = 0;
+        if (RogueliteManager.Instance != null)
+            bonusHealth = RogueliteManager.Instance.metaProgress.bonusMaxHealth;
+        maxPlayerHealth += bonusHealth;
         currentPlayerHealth = maxPlayerHealth;
         healthUI.text = currentPlayerHealth.ToString();
+
         SpawnStartingPopulations();
     }
 
@@ -649,6 +655,59 @@ public class CityManager : MonoBehaviour
         return null;
     }
 
+    public bool CityHasFusionCard(int cityIndex)
+    {
+        List<CardData> cards = GetNatureCardsInCity(cityIndex, true);
+
+        foreach (CardData card in cards)
+        {
+            if (card.natureCardType == NatureCardType.AwakeningOfNamazu ||
+                card.natureCardType == NatureCardType.ScourgeOfHelios ||
+                card.natureCardType == NatureCardType.CataclysmOfNjord ||
+                card.natureCardType == NatureCardType.EyeOfHuracan)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+    public bool CityHasModifierCard(int cityIndex)
+    {
+        List<CardData> cards = GetNatureCardsInCity(cityIndex, true);
+
+        foreach (CardData card in cards)
+        {
+            if (card.natureCardType == NatureCardType.ParchedEarth ||
+                card.natureCardType == NatureCardType.RapidIntensification ||
+                card.natureCardType == NatureCardType.SeismicEchoes)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public int CountBaseElementCardsInCity(int cityIndex)
+    {
+        List<CardData> cards = GetNatureCardsInCity(cityIndex, true);
+        int count = 0;
+
+        foreach (CardData card in cards)
+        {
+            if (card.natureCardType == NatureCardType.BreathOfBoreas ||
+                card.natureCardType == NatureCardType.FuryOfEnceladus ||
+                card.natureCardType == NatureCardType.TorrentOfTheNaiads ||
+                card.natureCardType == NatureCardType.FlameOfPrometheus)
+            {
+                count++;
+            }
+        }
+
+        return count;
+    }
+
     void FuseCardsIntoCombination(
     CardData cardA,
     CardData cardB,
@@ -694,6 +753,7 @@ public class CityManager : MonoBehaviour
         List<CardData> natureCards = GetNatureCardsInCity(cityIndex, true);
 
         CardData flame = FindFirstNatureCard(natureCards, NatureCardType.FlameOfPrometheus);
+        CardData scourge = FindFirstNatureCard(natureCards, NatureCardType.ScourgeOfHelios);
         CardData drought = FindFirstNatureCard(natureCards, NatureCardType.ParchedEarth);
 
         CardData depression = FindCardByNatureTypeInCity(cityIndex, NatureCardType.EyeOfHuracan);
@@ -705,6 +765,12 @@ public class CityManager : MonoBehaviour
         if (flame != null && drought != null)
         {
             ScheduleDisaster(cityIndex, DisasterType.Wildfire, 8, 2, 3, flame.gameObject);
+            return true;
+        }
+
+        if (flame != null && drought != null)
+        {
+            ScheduleDisaster(cityIndex, DisasterType.Wildfire, 12, 2, 3, flame.gameObject);
             return true;
         }
 

@@ -5,6 +5,8 @@ public class BoardSlot : MonoBehaviour
     public int slotIndex;
     public int cityIndex;
     public bool belongsToEnemy;
+    public bool isFrontRow;
+    public bool isBackRow;
 
     public GameObject highlightVisual;
 

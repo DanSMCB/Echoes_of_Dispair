@@ -79,7 +79,6 @@ public class GameManager : MonoBehaviour
                 {
                     if (CityManager.Instance.IsBlackoutActive(slot.cityIndex))
                     {
-                        Debug.Log("Cannot evacuate from this city during a blackout.");
 
                         if (InstructionUI.Instance != null)
                         {
@@ -105,11 +104,12 @@ public class GameManager : MonoBehaviour
                     LearningTracker.Instance.RegisterCardPlay(wasEffective);
 
                     slot.PlaceCard(cardToPlace);
+                    TurnManager.Instance.playerCardsPlayedThisTurn++;
+                    CheckAutoEndTurn();
 
                     selectedCard = null;
                     HideAllSlots();
                     handManager.RefreshHand();
-                    cameraChange.SwitchToPlayerView();
                     return;
                 }
             }
@@ -159,7 +159,6 @@ public class GameManager : MonoBehaviour
             }
 
             HideAllSlots();
-            cameraChange.SwitchToPlayerView();
             InstructionUI.Instance.ClearInstruction();
             return;
         }
@@ -173,7 +172,6 @@ public class GameManager : MonoBehaviour
 
         selectedCard = null;
         HideAllSlots();
-        cameraChange.SwitchToPlayerView();
     }
 
     private void ShowAvailableSlots()
@@ -192,6 +190,17 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void CheckAutoEndTurn()
+    {
+        if (TurnManager.Instance == null)
+            return;
+
+        if (TurnManager.Instance.playerCardsPlayedThisTurn >= TurnManager.Instance.maxCardsPerTurn)
+        {
+            TurnManager.Instance.EndPlayerTurn();
+        }
+    }
+
 
     //Evacuation ----------------------------------------------
     void StartEvacuationMode(GameObject evacuationCard, int sourceCityIndex)
@@ -203,7 +212,6 @@ public class GameManager : MonoBehaviour
 
         cameraChange.SwitchToBoardView();
 
-        Debug.Log("Modo evacuação iniciado para a cidade " + sourceCityIndex);
         InstructionUI.Instance.ShowInstruction("Select a population card you want to evacuate.");
     }
 
@@ -222,13 +230,10 @@ public class GameManager : MonoBehaviour
 
         if (slot.cityIndex != evacuationSourceCityIndex)
         {
-            Debug.Log("Só podes evacuar uma população da cidade de origem.");
             return;
         }
 
         selectedPopulationToMove = populationCard;
-
-        Debug.Log("População selecionada para evacuar da cidade " + evacuationSourceCityIndex);
 
         ShowEvacuationDestinationSlots();
         InstructionUI.Instance.ShowInstruction("Select a slot in the city you want the population to evacuate to.");
@@ -254,7 +259,6 @@ public class GameManager : MonoBehaviour
 
         if (selectedPopulationToMove == null)
         {
-            Debug.Log("Nenhuma população foi selecionada para evacuar.");
             return;
         }
 
@@ -263,7 +267,7 @@ public class GameManager : MonoBehaviour
 
         if (destinationSlot.cityIndex == evacuationSourceCityIndex)
         {
-            Debug.Log("A evacuação tem de ir para outra cidade.");
+            InstructionUI.Instance.ShowInstruction("The evacuation must be executed to another city.");
             return;
         }
 
@@ -313,8 +317,6 @@ public class GameManager : MonoBehaviour
         }
 
         EndEvacuationMode();
-
-        Debug.Log("População evacuada para a cidade " + destinationSlot.cityIndex);
     }
 
     void EndEvacuationMode()
@@ -324,9 +326,11 @@ public class GameManager : MonoBehaviour
         selectedPopulationToMove = null;
         pendingEvacuationCard = null;
 
+        TurnManager.Instance.playerCardsPlayedThisTurn++;
+        CheckAutoEndTurn();
+
         HideAllSlots();
         handManager.RefreshHand();
-        cameraChange.SwitchToPlayerView();
 
         InstructionUI.Instance.ClearInstruction();
     }

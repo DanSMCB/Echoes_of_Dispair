@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndGamePanel : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class EndGamePanel : MonoBehaviour
     public float fadeDuration = 2f;
 
     public TMP_Text efficientCardsRateText;
+
+    public string mapSceneName = "MapScene";
 
     void Awake()
     {
@@ -37,5 +40,11 @@ public class EndGamePanel : MonoBehaviour
         canvasGroup.alpha = 1f;
         canvasGroup.interactable = true;
         canvasGroup.blocksRaycasts = true;
+    }
+
+    public void ReturnToMap()
+    {
+        Debug.Log("ReturnToMap called. Loading scene: " + mapSceneName);
+        SceneManager.LoadScene(mapSceneName);
     }
 }

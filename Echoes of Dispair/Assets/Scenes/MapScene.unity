@@ -711,11 +711,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0de6f8d244463245b58217649ed0b81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeType: 0
+  nodeType: 2
   isInteractable: 0
   activeColor: {r: 0, g: 0, b: 0, a: 1}
   inactiveColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
   highlightColor: {r: 1, g: 0.2, b: 0.254902, a: 1}
+  rewardType: 0
+  healthRewardAmount: 5
+  cardRewardId: 
 --- !u!212 &102243003
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2649,11 +2652,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0de6f8d244463245b58217649ed0b81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeType: 0
+  nodeType: 1
   isInteractable: 0
   activeColor: {r: 0, g: 0, b: 0, a: 1}
   inactiveColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
   highlightColor: {r: 1, g: 0.2, b: 0.254902, a: 1}
+  rewardType: 2
+  healthRewardAmount: 5
+  cardRewardId: 
 --- !u!1 &375855316 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 9d775005a3ddca74096b475e99b14c13, type: 3}
@@ -7809,6 +7815,9 @@ MonoBehaviour:
   activeColor: {r: 0, g: 0, b: 0, a: 1}
   inactiveColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
   highlightColor: {r: 1, g: 0.2, b: 0.25490198, a: 1}
+  rewardType: 0
+  healthRewardAmount: 5
+  cardRewardId: 
 --- !u!65 &1026057639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8246,6 +8255,59 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 988034176}
   m_SourcePrefab: {fileID: 100100000, guid: dc9b74e51e432fd40bfcc4f28fb3a17e, type: 3}
+--- !u!1 &1116474222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1116474224}
+  - component: {fileID: 1116474223}
+  m_Layer: 0
+  m_Name: RogueliteManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1116474223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116474222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62dd5221fff239940b0c7d902e4a32e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runProgress:
+    currentMapState: 0
+    firstBattleWon: 0
+    rewardChosen: 0
+    finalBattleUnlocked: 0
+  metaProgress:
+    bonusMaxHealth: 0
+    permanentCardRewards: []
+  currentBattleStage: 0
+--- !u!4 &1116474224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116474222}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -193.3042, y: -361.7022, z: -2.468185}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1133569254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10374,10 +10436,10 @@ MonoBehaviour:
   - {fileID: 1220245027}
   - {fileID: 289117786}
   nodes:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1026057634}
+  - {fileID: 1858454843}
+  - {fileID: 374630240}
+  - {fileID: 102243001}
 --- !u!4 &1454210797
 Transform:
   m_ObjectHideFlags: 0
@@ -13163,11 +13225,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0de6f8d244463245b58217649ed0b81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeType: 0
+  nodeType: 1
   isInteractable: 0
   activeColor: {r: 0, g: 0, b: 0, a: 1}
   inactiveColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
   highlightColor: {r: 1, g: 0.2, b: 0.254902, a: 1}
+  rewardType: 1
+  healthRewardAmount: 5
+  cardRewardId: 
 --- !u!1001 &1871078271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14542,3 +14607,4 @@ SceneRoots:
   - {fileID: 429811892}
   - {fileID: 1454210797}
   - {fileID: 930415651}
+  - {fileID: 1116474224}

@@ -7,6 +7,13 @@ public enum MapNodeType
     FinalDeity
 }
 
+public enum RewardType
+{
+    None,
+    Health,
+    Card
+}
+
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Collider))]
 public class MapNode : MonoBehaviour
@@ -18,6 +25,11 @@ public class MapNode : MonoBehaviour
     public Color activeColor = Color.black;
     public Color inactiveColor = new Color(0.35f, 0.35f, 0.35f, 1f);
     public Color highlightColor = new Color(1f, 0.2f, 0.254902f, 1f);
+
+    [Header("Reward")]
+    public RewardType rewardType = RewardType.None;
+    public int healthRewardAmount = 5;
+    public string cardRewardId = "";
 
     private SpriteRenderer spriteRenderer;
     private Collider nodeCollider;

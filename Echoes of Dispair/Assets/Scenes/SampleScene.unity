@@ -167,6 +167,8 @@ MonoBehaviour:
   slotIndex: 11
   cityIndex: 2
   belongsToEnemy: 0
+  isFrontRow: 0
+  isBackRow: 1
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -239,6 +241,8 @@ MonoBehaviour:
   slotIndex: 2
   cityIndex: 0
   belongsToEnemy: 0
+  isFrontRow: 1
+  isBackRow: 0
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -411,6 +415,8 @@ MonoBehaviour:
   slotIndex: 17
   cityIndex: 1
   belongsToEnemy: 1
+  isFrontRow: 1
+  isBackRow: 0
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -483,6 +489,8 @@ MonoBehaviour:
   slotIndex: 5
   cityIndex: 1
   belongsToEnemy: 0
+  isFrontRow: 1
+  isBackRow: 0
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -971,6 +979,8 @@ MonoBehaviour:
   slotIndex: 19
   cityIndex: 1
   belongsToEnemy: 1
+  isFrontRow: 0
+  isBackRow: 1
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -1300,6 +1310,8 @@ MonoBehaviour:
   slotIndex: 12
   cityIndex: 2
   belongsToEnemy: 0
+  isFrontRow: 0
+  isBackRow: 1
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -1429,6 +1441,8 @@ MonoBehaviour:
   slotIndex: 21
   cityIndex: 0
   belongsToEnemy: 1
+  isFrontRow: 1
+  isBackRow: 0
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -1655,18 +1669,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85d8c0ac572ed7045b4c7488c6cab2db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardPrefabs:
-  - {fileID: 1288677953137183903, guid: 48699b53f6cec4547adbd3d46b20e8a5, type: 3}
-  - {fileID: 1288677953137183903, guid: 48699b53f6cec4547adbd3d46b20e8a5, type: 3}
-  - {fileID: 719939708766510865, guid: 1b8d18388e5d8b248a304454980297be, type: 3}
-  - {fileID: 7414247447156107381, guid: 212315bc5d5bf02469357c06306a6fa0, type: 3}
-  - {fileID: 1659898213638546474, guid: 603c1f164e99e4341b330683868e6cc2, type: 3}
-  - {fileID: 4389460273996505204, guid: 0ae31493afa78b94b8f0d03bf4bef0ba, type: 3}
-  - {fileID: 5114320593775721821, guid: f9c05447b35485546a52aeff732f343c, type: 3}
+  baseDeckCardPrefabs:
+  - {fileID: 3893211836866194602, guid: c507921be00ca1440966cc92c4fa42ef, type: 3}
   - {fileID: 3893211836866194602, guid: c507921be00ca1440966cc92c4fa42ef, type: 3}
   - {fileID: 5114320593775721821, guid: 1902d753cf392a146ad787c91f5e4c3a, type: 3}
   - {fileID: 5114320593775721821, guid: 1902d753cf392a146ad787c91f5e4c3a, type: 3}
   - {fileID: 5114320593775721821, guid: 1902d753cf392a146ad787c91f5e4c3a, type: 3}
+  - {fileID: 1288677953137183903, guid: 48699b53f6cec4547adbd3d46b20e8a5, type: 3}
+  - {fileID: 1288677953137183903, guid: 48699b53f6cec4547adbd3d46b20e8a5, type: 3}
+  - {fileID: 1288677953137183903, guid: 48699b53f6cec4547adbd3d46b20e8a5, type: 3}
+  - {fileID: 719939708766510865, guid: 1b8d18388e5d8b248a304454980297be, type: 3}
+  - {fileID: 719939708766510865, guid: 1b8d18388e5d8b248a304454980297be, type: 3}
+  - {fileID: 7414247447156107381, guid: 212315bc5d5bf02469357c06306a6fa0, type: 3}
+  - {fileID: 7414247447156107381, guid: 212315bc5d5bf02469357c06306a6fa0, type: 3}
+  - {fileID: 1659898213638546474, guid: 603c1f164e99e4341b330683868e6cc2, type: 3}
+  - {fileID: 1659898213638546474, guid: 603c1f164e99e4341b330683868e6cc2, type: 3}
+  - {fileID: 4389460273996505204, guid: 0ae31493afa78b94b8f0d03bf4bef0ba, type: 3}
+  - {fileID: 4389460273996505204, guid: 0ae31493afa78b94b8f0d03bf4bef0ba, type: 3}
+  - {fileID: 5114320593775721821, guid: f9c05447b35485546a52aeff732f343c, type: 3}
+  - {fileID: 5114320593775721821, guid: f9c05447b35485546a52aeff732f343c, type: 3}
+  cardPrefabs: []
   cardSpacing: 0.01
   handManager: {fileID: 968343019}
   startingCards: 4
@@ -1822,6 +1844,8 @@ MonoBehaviour:
   slotIndex: 7
   cityIndex: 1
   belongsToEnemy: 0
+  isFrontRow: 0
+  isBackRow: 1
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -1894,6 +1918,8 @@ MonoBehaviour:
   slotIndex: 9
   cityIndex: 2
   belongsToEnemy: 0
+  isFrontRow: 1
+  isBackRow: 0
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -2455,6 +2481,8 @@ MonoBehaviour:
   slotIndex: 3
   cityIndex: 0
   belongsToEnemy: 0
+  isFrontRow: 0
+  isBackRow: 1
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -2527,6 +2555,8 @@ MonoBehaviour:
   slotIndex: 14
   cityIndex: 2
   belongsToEnemy: 1
+  isFrontRow: 1
+  isBackRow: 0
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -2743,14 +2773,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyManager: {fileID: 761688422}
+  playerDeckManager: {fileID: 496544838}
   roundText: {fileID: 1577968051}
   isPlayerTurn: 1
   gameEnded: 0
   currentRound: 1
-  targetRoundsToSurvive: 10
+  targetRoundsToSurvive: 3
   playerTurn: {fileID: 443299837}
+  playerCardsPlayedThisTurn: 0
+  maxCardsPerTurn: 2
   victoryPanel: {fileID: 843855623}
   defeatPanel: {fileID: 1639822027}
+  endTurnButton: {fileID: 793267455}
 --- !u!114 &761688422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2766,6 +2800,19 @@ MonoBehaviour:
   enemyDeck:
   - {fileID: 3893211836866194602, guid: 88e1487db6fad914996cc3cb661f0372, type: 3}
   - {fileID: 3893211836866194602, guid: 88e1487db6fad914996cc3cb661f0372, type: 3}
+  - {fileID: 3893211836866194602, guid: 80b59687a473a7a4086552ed15cb2af1, type: 3}
+  - {fileID: 3893211836866194602, guid: 80b59687a473a7a4086552ed15cb2af1, type: 3}
+  - {fileID: 3893211836866194602, guid: 44a6328e95e83d24c9a6d334c029bf8e, type: 3}
+  - {fileID: 3893211836866194602, guid: 44a6328e95e83d24c9a6d334c029bf8e, type: 3}
+  - {fileID: 3893211836866194602, guid: 7a53987d47e0c2f45b73aa0f13195097, type: 3}
+  - {fileID: 3893211836866194602, guid: 7a53987d47e0c2f45b73aa0f13195097, type: 3}
+  - {fileID: 3893211836866194602, guid: 67a4b10bb5b0e4b42bba396d8e87becc, type: 3}
+  - {fileID: 3893211836866194602, guid: b41e8506cc9430841be015542ac93c49, type: 3}
+  - {fileID: 3893211836866194602, guid: e1879d87c5349c04a83f2cd3120aed83, type: 3}
+  - {fileID: 3893211836866194602, guid: 2b3f217933fb47a4fb21215a81352b62, type: 3}
+  - {fileID: 3893211836866194602, guid: 6c45e1f4b278c8344ab9124cfbff9f25, type: 3}
+  - {fileID: 3893211836866194602, guid: 92ab01c09fc82a44db4705e507383911, type: 3}
+  - {fileID: 3893211836866194602, guid: 3ceaf2277d8cbeb439e9ac52fc48202e, type: 3}
   enemySlots:
   - {fileID: 777884382}
   - {fileID: 742277446}
@@ -2904,6 +2951,8 @@ MonoBehaviour:
   slotIndex: 13
   cityIndex: 2
   belongsToEnemy: 1
+  isFrontRow: 1
+  isBackRow: 0
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -3284,6 +3333,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 843855622}
   fadeDuration: 2
   efficientCardsRateText: {fileID: 952278387}
+  mapSceneName: MapScene
 --- !u!114 &843855624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4548,6 +4598,8 @@ MonoBehaviour:
   slotIndex: 24
   cityIndex: 0
   belongsToEnemy: 1
+  isFrontRow: 0
+  isBackRow: 1
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -4654,7 +4706,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1115153883}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1639822027}
+        m_TargetAssemblyTypeName: EndGamePanel, Assembly-CSharp
+        m_MethodName: ReturnToMap
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1115153883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4920,6 +4984,8 @@ MonoBehaviour:
   slotIndex: 16
   cityIndex: 2
   belongsToEnemy: 1
+  isFrontRow: 0
+  isBackRow: 1
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -4944,6 +5010,51 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.6603012, y: 0.36436653, z: 1.7872891}
   m_Center: {x: -0.017672539, y: 0.19742393, z: 0.0435493}
+--- !u!1 &1233157297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1233157299}
+  - component: {fileID: 1233157298}
+  m_Layer: 0
+  m_Name: CardRewardDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1233157298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233157297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7bfc0d0ce6dc845a3d7ce2c0f16fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entries: []
+--- !u!4 &1233157299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233157297}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -193.3042, y: -361.7022, z: -2.468185}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1312442514
 GameObject:
   m_ObjectHideFlags: 0
@@ -5115,6 +5226,8 @@ MonoBehaviour:
   slotIndex: 10
   cityIndex: 2
   belongsToEnemy: 0
+  isFrontRow: 1
+  isBackRow: 0
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -5357,7 +5470,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1416544490}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 843855623}
+        m_TargetAssemblyTypeName: EndGamePanel, Assembly-CSharp
+        m_MethodName: ReturnToMap
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1416544490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5444,6 +5569,8 @@ MonoBehaviour:
   slotIndex: 18
   cityIndex: 1
   belongsToEnemy: 1
+  isFrontRow: 1
+  isBackRow: 0
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -5516,6 +5643,8 @@ MonoBehaviour:
   slotIndex: 20
   cityIndex: 1
   belongsToEnemy: 1
+  isFrontRow: 0
+  isBackRow: 1
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -5711,6 +5840,8 @@ MonoBehaviour:
   slotIndex: 22
   cityIndex: 0
   belongsToEnemy: 1
+  isFrontRow: 1
+  isBackRow: 0
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -5783,6 +5914,8 @@ MonoBehaviour:
   slotIndex: 23
   cityIndex: 0
   belongsToEnemy: 1
+  isFrontRow: 0
+  isBackRow: 1
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -6272,6 +6405,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 1639822026}
   fadeDuration: 2
   efficientCardsRateText: {fileID: 1221643122}
+  mapSceneName: MapScene
 --- !u!114 &1639822028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6384,6 +6518,8 @@ MonoBehaviour:
   slotIndex: 1
   cityIndex: 0
   belongsToEnemy: 0
+  isFrontRow: 1
+  isBackRow: 0
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -6941,6 +7077,8 @@ MonoBehaviour:
   slotIndex: 6
   cityIndex: 1
   belongsToEnemy: 0
+  isFrontRow: 1
+  isBackRow: 0
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -7197,6 +7335,8 @@ MonoBehaviour:
   slotIndex: 15
   cityIndex: 2
   belongsToEnemy: 1
+  isFrontRow: 0
+  isBackRow: 1
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -7484,6 +7624,8 @@ MonoBehaviour:
   slotIndex: 8
   cityIndex: 1
   belongsToEnemy: 0
+  isFrontRow: 0
+  isBackRow: 1
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -7556,6 +7698,8 @@ MonoBehaviour:
   slotIndex: 4
   cityIndex: 0
   belongsToEnemy: 0
+  isFrontRow: 0
+  isBackRow: 1
   highlightVisual: {fileID: 0}
   isAvailable: 0
   currentCard: {fileID: 0}
@@ -7733,3 +7877,4 @@ SceneRoots:
   - {fileID: 1035494281}
   - {fileID: 1580532897}
   - {fileID: 761688417}
+  - {fileID: 1233157299}
