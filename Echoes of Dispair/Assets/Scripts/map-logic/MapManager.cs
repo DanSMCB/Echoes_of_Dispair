@@ -56,19 +56,23 @@ public class MapManager : MonoBehaviour
 
         if (RogueliteManager.Instance != null)
         {
-            Debug.Log("MapManager Start - CurrentState = " + CurrentState +
-                      " | RogueliteManager ID: " + RogueliteManager.Instance.GetInstanceID());
-        }
-        else
-        {
-            Debug.LogError("MapManager Start - RogueliteManager.Instance is NULL");
-        }
-        ApplyState(CurrentState);
-    }
+            bool shouldGenerateRewardCards =
+                CurrentState == MapProgressState.ChoicesUnlocked &&
+                !RogueliteManager.Instance.runProgress.rewardChosen &&
+                RogueliteManager.Instance.runProgress.currentRewardCardOptions.Count == 0;
 
-    private void OnEnable()
-    {
-        Debug.Log("MapManager OnEnable called");
+            if (shouldGenerateRewardCards)
+            {
+                RogueliteManager.Instance.GenerateRewardCardOptions();
+                CardRewardPanel rewardPanel = choiceNodeB.cardReward.GetComponent<CardRewardPanel>();
+                if (rewardPanel != null)
+                {
+                    rewardPanel.RefreshFromRunProgress();
+                }
+            }
+        }
+
+        ApplyState(CurrentState);
     }
 
     private void Update()
@@ -133,8 +137,8 @@ public class MapManager : MonoBehaviour
                 {
                     Debug.Log("Choice selected: " + clickedNode.name);
 
-                    choiceNodeA.SetSelected(clickedNode == choiceNodeA);
-                    choiceNodeB.SetSelected(clickedNode == choiceNodeB);
+                    choiceNodeA.SetDisabled(clickedNode == choiceNodeA);
+                    choiceNodeB.SetDisabled(clickedNode == choiceNodeB);
 
                     if (RogueliteManager.Instance != null)
                     {
@@ -145,7 +149,7 @@ public class MapManager : MonoBehaviour
                                 break;
 
                             case RewardType.Card:
-                                RogueliteManager.Instance.ChooseCardReward(clickedNode.cardRewardId);
+                                //RogueliteManager.Instance.ChooseCardReward(clickedNode.cardRewardId);
                                 break;
                         }
                     }
@@ -188,9 +192,16 @@ public class MapManager : MonoBehaviour
         ApplyState(CurrentState);
     }
 
+    public void RefreshMapAfterRewardChoice()
+    {
+        choiceNodeA.SetSelected(false);
+        choiceNodeB.SetSelected(false);
+
+        ApplyState(CurrentState);
+    }
+
     private void ApplyState(MapProgressState state)
     {
-        Debug.Log("ApplyState called with: " + state);
         if (firstDeityNode == null || choiceNodeA == null || choiceNodeB == null || finalDeityNode == null)
         {
             Debug.LogWarning("MapManager: missing node references.");
@@ -200,7 +211,6 @@ public class MapManager : MonoBehaviour
         switch (state)
         {
             case MapProgressState.Start:
-                Debug.Log("Applying START state");
                 firstDeityNode.SetInteractable(true);
                 choiceNodeA.SetInteractable(false);
                 choiceNodeB.SetInteractable(false);
@@ -213,7 +223,6 @@ public class MapManager : MonoBehaviour
                 break;
 
             case MapProgressState.ChoicesUnlocked:
-                Debug.Log("Applying CHOICES UNLOCKED state");
                 firstDeityNode.SetInteractable(false);
                 choiceNodeA.SetInteractable(true);
                 choiceNodeB.SetInteractable(true);
@@ -224,7 +233,6 @@ public class MapManager : MonoBehaviour
                 break;
 
             case MapProgressState.FinalDeityUnlocked:
-                Debug.Log("Applying FINAL DEITY UNLOCKED state");
                 firstDeityNode.SetInteractable(false);
                 choiceNodeA.SetInteractable(false);
                 choiceNodeB.SetInteractable(false);

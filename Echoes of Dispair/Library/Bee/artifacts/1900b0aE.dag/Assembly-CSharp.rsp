@@ -452,6 +452,8 @@
 "Assets/Scripts/LearningTracker.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/map-logic/CardRewardDatabase.cs"
+"Assets/Scripts/map-logic/CardRewardOptionUI.cs"
+"Assets/Scripts/map-logic/CardRewardPanel.cs"
 "Assets/Scripts/map-logic/MapManager.cs"
 "Assets/Scripts/map-logic/MapNode.cs"
 "Assets/Scripts/map-logic/MapPopin.cs"

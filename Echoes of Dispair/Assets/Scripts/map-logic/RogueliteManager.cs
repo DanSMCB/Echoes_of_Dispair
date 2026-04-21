@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -27,28 +28,11 @@ public class RogueliteManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            Debug.Log("RogueliteManager CREATED and persisted. Instance ID: " + GetInstanceID());
         }
         else
         {
-            Debug.Log("Duplicate RogueliteManager DESTROYED. Instance ID: " + GetInstanceID());
             Destroy(gameObject);
         }
-    }
-
-    private void OnEnable()
-    {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        Debug.Log("Scene loaded: " + scene.name);
     }
 
     public void ResetRunProgress()
@@ -61,9 +45,6 @@ public class RogueliteManager : MonoBehaviour
     {
         runProgress.firstBattleWon = true;
         runProgress.currentMapState = MapProgressState.ChoicesUnlocked;
-
-        Debug.Log("MarkFirstBattleWon CALLED. State is now: " + runProgress.currentMapState +
-              " | Manager ID: " + GetInstanceID());
     }
 
     public void ChooseHealthReward(int amount)
@@ -73,8 +54,6 @@ public class RogueliteManager : MonoBehaviour
         runProgress.rewardChosen = true;
         runProgress.finalBattleUnlocked = true;
         runProgress.currentMapState = MapProgressState.FinalDeityUnlocked;
-
-        Debug.Log("Permanent health reward gained: +" + amount);
     }
 
     public void ChooseCardReward(string cardId)
@@ -85,8 +64,27 @@ public class RogueliteManager : MonoBehaviour
         runProgress.rewardChosen = true;
         runProgress.finalBattleUnlocked = true;
         runProgress.currentMapState = MapProgressState.FinalDeityUnlocked;
+    }
 
-        Debug.Log("Permanent card reward gained: " + cardId);
+    public void GenerateRewardCardOptions()
+    {
+        if (CardRewardDatabase.Instance == null)
+        {
+            Debug.LogError("CardRewardDatabase.Instance is NULL");
+            return;
+        }
+
+        runProgress.currentRewardCardOptions.Clear();
+
+        List<CardRewardDatabase.CardRewardEntry> randomOptions =
+            CardRewardDatabase.Instance.GetRandomRewardOptions(3);
+
+        foreach (var option in randomOptions)
+        {
+            runProgress.currentRewardCardOptions.Add(option.cardId);
+        }
+
+        Debug.Log("Generated reward card options: " + string.Join(", ", runProgress.currentRewardCardOptions));
     }
 
     public void OnFinalBattleWon()

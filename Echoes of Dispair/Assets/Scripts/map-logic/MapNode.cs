@@ -1,4 +1,5 @@
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
 public enum MapNodeType
 {
@@ -31,6 +32,9 @@ public class MapNode : MonoBehaviour
     public int healthRewardAmount = 5;
     public string cardRewardId = "";
 
+    public GameObject healthReward;
+    public GameObject cardReward;
+
     private SpriteRenderer spriteRenderer;
     private Collider nodeCollider;
 
@@ -61,6 +65,12 @@ public class MapNode : MonoBehaviour
         UpdateVisual();
     }
 
+    public void SetDisabled(bool value)
+    {
+        isInteractable = value;
+        UpdateVisual();
+    }
+
     public void SetHovered(bool value)
     {
         isHovered = value;
@@ -78,10 +88,34 @@ public class MapNode : MonoBehaviour
         }
         else if (isHovered && isInteractable)
         {
+            if (nodeType == MapNodeType.Choice)
+            {
+                if (rewardType == RewardType.Health)
+                {
+                    healthReward.SetActive(true);
+                }
+                else if (rewardType == RewardType.Card)
+                {
+                    cardReward.SetActive(true);
+                }
+            }
+            
             spriteRenderer.color = highlightColor;
         }
         else
         {
+            if (nodeType == MapNodeType.Choice)
+            {
+                if (rewardType == RewardType.Health)
+                {
+                    healthReward.SetActive(false);
+                }
+                else if (rewardType == RewardType.Card)
+                {
+                    cardReward.SetActive(false);
+                }
+            }
+
             spriteRenderer.color = isInteractable ? activeColor : inactiveColor;
         }
     }

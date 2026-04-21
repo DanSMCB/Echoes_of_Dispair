@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\GameEnum.cs" />
     <Compile Include="Assets\Scripts\map-logic\CardRewardDatabase.cs" />
     <Compile Include="Assets\Scripts\EnemyManager.cs" />
+    <Compile Include="Assets\Scripts\map-logic\CardRewardPanel.cs" />
     <Compile Include="Assets\Scripts\DisasterCombinationManager.cs" />
     <Compile Include="Assets\Scripts\TurnManager.cs" />
     <Compile Include="Assets\Scripts\HandDisplay.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Assets\Scripts\CityState.cs" />
     <Compile Include="Assets\Scripts\map-logic\MapNode.cs" />
     <Compile Include="Assets\Scripts\InstructionUI.cs" />
+    <Compile Include="Assets\Scripts\map-logic\CardRewardOptionUI.cs" />
     <Compile Include="Assets\Scripts\map-logic\RogueliteManager.cs" />
     <Compile Include="Assets\Scripts\EndGamePanel.cs" />
     <Compile Include="Assets\Scripts\map-logic\RunProgressData.cs" />

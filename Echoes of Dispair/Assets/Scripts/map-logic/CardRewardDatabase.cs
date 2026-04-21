@@ -10,12 +10,14 @@ public class CardRewardDatabase : MonoBehaviour
     {
         public string cardId;
         public GameObject cardPrefab;
+        public Sprite cardSprite;
+        public string cardName;
     }
 
     [Header("Reward Cards")]
     public List<CardRewardEntry> entries = new List<CardRewardEntry>();
 
-    private Dictionary<string, GameObject> cardLookup = new Dictionary<string, GameObject>();
+    private Dictionary<string, CardRewardEntry> cardLookup = new Dictionary<string, CardRewardEntry>();
 
     void Awake()
     {
@@ -41,7 +43,7 @@ public class CardRewardDatabase : MonoBehaviour
 
             if (!cardLookup.ContainsKey(entry.cardId))
             {
-                cardLookup.Add(entry.cardId, entry.cardPrefab);
+                cardLookup.Add(entry.cardId, entry);
             }
             else
             {
@@ -50,14 +52,44 @@ public class CardRewardDatabase : MonoBehaviour
         }
     }
 
-    public GameObject GetCardPrefabById(string id)
+    public GameObject GetCardPrefabById(string cardId)
     {
-        foreach (var entry in entries)
+        if (string.IsNullOrEmpty(cardId))
+            return null;
+
+        if (cardLookup.TryGetValue(cardId, out CardRewardEntry entry))
+            return entry.cardPrefab;
+
+        Debug.LogWarning("No reward card prefab found for ID: " + cardId);
+        return null;
+    }
+
+    public CardRewardEntry GetEntryById(string cardId)
+    {
+        if (string.IsNullOrEmpty(cardId))
+            return null;
+
+        if (cardLookup.TryGetValue(cardId, out CardRewardEntry entry))
+            return entry;
+
+        Debug.LogWarning("No reward entry found for ID: " + cardId);
+        return null;
+    }
+
+    public List<CardRewardEntry> GetRandomRewardOptions(int count)
+    {
+        List<CardRewardEntry> pool = new List<CardRewardEntry>(entries);
+        List<CardRewardEntry> result = new List<CardRewardEntry>();
+
+        count = Mathf.Min(count, pool.Count);
+
+        for (int i = 0; i < count; i++)
         {
-            if (entry.cardId == id)
-                return entry.cardPrefab;
+            int randomIndex = Random.Range(0, pool.Count);
+            result.Add(pool[randomIndex]);
+            pool.RemoveAt(randomIndex);
         }
 
-        return null;
+        return result;
     }
 }

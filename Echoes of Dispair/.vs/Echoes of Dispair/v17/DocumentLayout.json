@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|c:\\users\\danie\\documents\\github\\echoes_of_dispair\\echoes of dispair\\assets\\scripts\\map-logic\\cardrewardoptionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map-logic\\cardrewardoptionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\cardpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\carddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\map-logic\\cardrewardpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map-logic\\cardrewardpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\map-logic\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map-logic\\mapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,32 +27,32 @@
       "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map-logic\\roguelitemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|c:\\users\\danie\\documents\\github\\echoes_of_dispair\\echoes of dispair\\assets\\scripts\\map-logic\\mapsequencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map-logic\\mapsequencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\map-logic\\cardrewarddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map-logic\\cardrewarddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\map-logic\\mapnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map-logic\\mapnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\map-logic\\runprogressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map-logic\\runprogressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\deckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deckmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|c:\\users\\danie\\documents\\github\\echoes_of_dispair\\echoes of dispair\\assets\\scripts\\citymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\citymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|c:\\users\\danie\\documents\\github\\echoes_of_dispair\\echoes of dispair\\assets\\scripts\\endgamepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\endgamepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endgamepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|c:\\users\\danie\\documents\\github\\echoes_of_dispair\\echoes of dispair\\assets\\scripts\\map-logic\\cardrewarddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map-logic\\cardrewarddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\citymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\citymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,16 +63,8 @@
       "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map-logic\\metaprogressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\map-logic\\runprogressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map-logic\\runprogressdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\interactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\boardslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,127 +94,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MapSequenceController.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\MapSequenceController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\MapSequenceController.cs",
-              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\MapSequenceController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\map-logic\\MapSequenceController.cs",
-              "ViewState": "AgIAAC4BAAAAAAAAAAAIwDYAAAAbAAAAAAAAAA==",
+              "Title": "CardData.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\CardData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardData.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\CardData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardData.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAewBsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T02:55:20.104Z",
+              "WhenOpened": "2026-04-21T01:59:51.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CardPreview.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\CardPreview.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardPreview.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\CardPreview.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardPreview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T01:58:17.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardRewardPanel.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\CardRewardPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\CardRewardPanel.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\CardRewardPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\map-logic\\CardRewardPanel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T00:53:38.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CardRewardOptionUI.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\CardRewardOptionUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\CardRewardOptionUI.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\CardRewardOptionUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\map-logic\\CardRewardOptionUI.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowC8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T00:35:19.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EndGamePanel.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\EndGamePanel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EndGamePanel.cs",
-              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\EndGamePanel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EndGamePanel.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowC4AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T01:51:43.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "CardRewardDatabase.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\CardRewardDatabase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\CardRewardDatabase.cs",
               "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\CardRewardDatabase.cs",
               "RelativeToolTip": "Assets\\Scripts\\map-logic\\CardRewardDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwEIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T01:28:41.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T01:28:41.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "RogueliteManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\RogueliteManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\RogueliteManager.cs",
               "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\RogueliteManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\map-logic\\RogueliteManager.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCgAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwEQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T01:04:28.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T01:04:28.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MapManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\MapManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\MapManager.cs",
               "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\MapManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\map-logic\\MapManager.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA6wCMAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAIAwwEUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T00:57:48.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T00:57:48.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "InteractionManager.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\InteractionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractionManager.cs",
-              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\InteractionManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractionManager.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAASwCUAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T23:47:55.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "CityManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\CityManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CityManager.cs",
               "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\CityManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\CityManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAACoAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0DAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T22:37:14.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T22:37:14.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "DeckManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\DeckManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DeckManager.cs",
               "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\DeckManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\DeckManager.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowD8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwD8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T22:36:14.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T22:36:14.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "MapNode.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\MapNode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\MapNode.cs",
               "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\MapNode.cs",
               "RelativeToolTip": "Assets\\Scripts\\map-logic\\MapNode.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAzwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAA6wFQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T01:23:18.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T01:23:18.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "TurnManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\TurnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TurnManager.cs",
@@ -214,12 +227,35 @@
               "RelativeToolTip": "Assets\\Scripts\\TurnManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:45:21.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T16:45:21.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
+              "Title": "RunProgressData.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\RunProgressData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\RunProgressData.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\RunProgressData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\map-logic\\RunProgressData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T00:56:04.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EndGamePanel.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\EndGamePanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EndGamePanel.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\EndGamePanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EndGamePanel.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:51:43.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "EnemyManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\EnemyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyManager.cs",
@@ -227,12 +263,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyManager.cs",
               "ViewState": "AgIAAKkAAAAAAAAAAAAAAKsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:53:09.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T16:53:09.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "MetaProgressData.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\MetaProgressData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\MetaProgressData.cs",
@@ -244,19 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RunProgressData.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\RunProgressData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\RunProgressData.cs",
-              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\RunProgressData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\map-logic\\RunProgressData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T00:56:04.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "InstructionUI.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\InstructionUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InstructionUI.cs",
@@ -268,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -280,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "BoardSlot.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\BoardSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BoardSlot.cs",
@@ -292,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "LearningTracker.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\LearningTracker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LearningTracker.cs",
@@ -304,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "CardHoverSystem.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\CardHoverSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CardHoverSystem.cs",
@@ -316,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "DisasterInstance.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\DisasterInstance.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DisasterInstance.cs",

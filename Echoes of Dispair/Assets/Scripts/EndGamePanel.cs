@@ -44,7 +44,6 @@ public class EndGamePanel : MonoBehaviour
 
     public void ReturnToMap()
     {
-        Debug.Log("ReturnToMap called. Loading scene: " + mapSceneName);
         SceneManager.LoadScene(mapSceneName);
     }
 }
