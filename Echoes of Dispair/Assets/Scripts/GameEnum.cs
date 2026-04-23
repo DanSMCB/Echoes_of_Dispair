@@ -2,6 +2,7 @@ public enum CardType
 {
     Nature,
     Human,
+    Plague,
     Population
 }
 
@@ -21,6 +22,21 @@ public enum NatureCardType
     EyeOfHuracan
 }
 
+public enum PlagueCardType
+{
+    None,
+    PlagueOfNosoi,
+    AirborneSpread,
+    WaterbornePathogen,
+    SurfaceContamination,
+    RapidMutation,
+    UrbanTransmission,
+    DelayedSymptoms,
+    SilentSpread,
+    Pandemic,
+    GlobalPandemic
+}
+
 public enum HumanCardType
 {
     None,
@@ -31,7 +47,16 @@ public enum HumanCardType
     EmergencyKit,
     StayHydrated,
     Sandbags,
-    Barricade
+    Barricade,
+    SelfIsolation,
+    MaskUsage,
+    HandWashing,
+    UseSanitizer,
+    AvoidCrowds,
+    StockEssentials,
+    BoilWater,
+    Vaccination,
+    LockdownMeasures
 }
 
 public enum DisasterType

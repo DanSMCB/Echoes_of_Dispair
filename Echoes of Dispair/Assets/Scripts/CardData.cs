@@ -11,6 +11,7 @@ public class CardData : MonoBehaviour
 
     public CardType cardType;
     public NatureCardType natureCardType;
+    public PlagueCardType plagueCardType;
     public HumanCardType humanCardType;
 
     private bool isHovered = false;

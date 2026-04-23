@@ -7328,7 +7328,7 @@ MonoBehaviour:
   choiceNodeA: {fileID: 1858454848}
   choiceNodeB: {fileID: 374630245}
   finalDeityNode: {fileID: 102243002}
-  battleSceneName: SampleScene
+  battleSceneName: BattleScene1
   mainCamera: {fileID: 0}
   nodeLayerMask:
     serializedVersion: 2
