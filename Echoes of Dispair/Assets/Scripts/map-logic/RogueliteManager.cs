@@ -22,6 +22,8 @@ public class RogueliteManager : MonoBehaviour
     [Header("Current Battle")]
     public BattleStage currentBattleStage = BattleStage.None;
 
+    public RunStats runStats = new RunStats();
+
     private void Awake()
     {
         if (Instance == null)
@@ -89,9 +91,42 @@ public class RogueliteManager : MonoBehaviour
     public void OnFinalBattleWon()
     {
         Debug.Log("Final battle won.");
-        // mais tarde podes decidir aqui se:
-        // - fecha a demo
-        // - mostra ecrã final
-        // - começa novo ciclo
     }
+
+    public void AccumulateBattleStats()
+    {
+        runStats.totalCardsPlayed += LearningTracker.Instance.totalCardsPlayed;
+        runStats.totalGoodCards += LearningTracker.Instance.wellPlayedCards;
+
+        runStats.totalDamageTaken += LearningTracker.Instance.totalDamageTaken;
+        runStats.totalDamagePrevented += LearningTracker.Instance.totalDamagePrevented;
+    }
+
+    public float GetGlobalCardEfficiency()
+    {
+        if (runStats.totalCardsPlayed == 0)
+            return 0f;
+
+        return (float)runStats.totalGoodCards / runStats.totalCardsPlayed * 100f;
+    }
+
+    public float GetGlobalMitigationRate()
+    {
+        int total = runStats.totalDamageTaken + runStats.totalDamagePrevented;
+
+        if (total == 0)
+            return 0f;
+
+        return (float)runStats.totalDamagePrevented / total * 100f;
+    }
+}
+
+[System.Serializable]
+public class RunStats
+{
+    public int totalCardsPlayed = 0;
+    public int totalGoodCards = 0;
+
+    public int totalDamageTaken = 0;
+    public int totalDamagePrevented = 0;
 }

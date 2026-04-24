@@ -573,7 +573,7 @@ public class PlagueCityManager : MonoBehaviour
                 break;
 
             case HumanCardType.LockdownMeasures:
-                city.lockdownMeasuresTurns = 2;
+                city.lockdownMeasuresTurns = 4;
                 city.lockdownMeasuresCard = card.gameObject;
                 break;
         }

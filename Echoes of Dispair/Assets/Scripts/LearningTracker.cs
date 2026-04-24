@@ -4,11 +4,11 @@ public class LearningTracker : MonoBehaviour
 {
     public static LearningTracker Instance;
 
-    int totalCardsPlayed = 0;
-    int wellPlayedCards = 0;
+    public int totalCardsPlayed = 0;
+    public int wellPlayedCards = 0;
 
-    int totalDamageTaken = 0;
-    int totalDamagePrevented = 0;
+    public int totalDamageTaken = 0;
+    public int totalDamagePrevented = 0;
 
     void Awake()
     {
@@ -49,5 +49,13 @@ public class LearningTracker : MonoBehaviour
             return 0f;
 
         return (float)totalDamagePrevented / total * 100f;
+    }
+
+    public void ResetStats()
+    {
+        totalCardsPlayed = 0;
+        wellPlayedCards = 0;
+        totalDamageTaken = 0;
+        totalDamagePrevented = 0;
     }
 }

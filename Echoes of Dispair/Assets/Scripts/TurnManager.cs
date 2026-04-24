@@ -1,6 +1,7 @@
-using UnityEngine;
-using TMPro;
+using NUnit.Framework.Interfaces;
 using System.Collections;
+using TMPro;
+using UnityEngine;
 
 public enum BattleMode
 {
@@ -31,6 +32,7 @@ public class TurnManager : MonoBehaviour
 
     public EndGamePanel victoryPanel;
     public EndGamePanel defeatPanel;
+    public EndGamePanel gameOverPanel;
 
     public BattleMode battleMode;
 
@@ -142,16 +144,18 @@ public class TurnManager : MonoBehaviour
             {
                 if (RogueliteManager.Instance.currentBattleStage == BattleStage.FirstDeity)
                 {
+                    RogueliteManager.Instance.AccumulateBattleStats();
                     RogueliteManager.Instance.MarkFirstBattleWon();
+                    victoryPanel.Show();
+                    LearningTracker.Instance.ResetStats();
                 }
                 else if (RogueliteManager.Instance.currentBattleStage == BattleStage.FinalDeity)
                 {
-                    RogueliteManager.Instance.OnFinalBattleWon();
+                    RogueliteManager.Instance.AccumulateBattleStats();
+                    gameOverPanel.ShowGameOver();
+                    LearningTracker.Instance.ResetStats();
                 }
             }
-
-            if (victoryPanel != null)
-                victoryPanel.Show();
         }
     }
 
@@ -176,6 +180,7 @@ public class TurnManager : MonoBehaviour
 
     void Lose()
     {
+        RogueliteManager.Instance.AccumulateBattleStats();
         gameEnded = true;
 
         if (RogueliteManager.Instance != null)
@@ -185,5 +190,7 @@ public class TurnManager : MonoBehaviour
 
         if (defeatPanel != null)
             defeatPanel.Show();
+
+        LearningTracker.Instance.ResetStats();
     }
 }

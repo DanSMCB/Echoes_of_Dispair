@@ -1501,7 +1501,6 @@ MonoBehaviour:
   - {fileID: 1288677953137183903, guid: 48699b53f6cec4547adbd3d46b20e8a5, type: 3}
   - {fileID: 1288677953137183903, guid: 48699b53f6cec4547adbd3d46b20e8a5, type: 3}
   - {fileID: 719939708766510865, guid: 1b8d18388e5d8b248a304454980297be, type: 3}
-  - {fileID: 719939708766510865, guid: 1b8d18388e5d8b248a304454980297be, type: 3}
   - {fileID: 7414247447156107381, guid: 212315bc5d5bf02469357c06306a6fa0, type: 3}
   - {fileID: 7414247447156107381, guid: 212315bc5d5bf02469357c06306a6fa0, type: 3}
   - {fileID: 1659898213638546474, guid: 603c1f164e99e4341b330683868e6cc2, type: 3}
@@ -7517,6 +7516,7 @@ MonoBehaviour:
   maxCardsPerTurn: 2
   victoryPanel: {fileID: 843855623}
   defeatPanel: {fileID: 1639822027}
+  gameOverPanel: {fileID: 0}
   battleMode: 0
   endTurnButton: {fileID: 793267455}
 --- !u!114 &761688422
@@ -7635,6 +7635,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd71d5cb8ff47e34bbbae2ad003358f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  totalCardsPlayed: 0
+  wellPlayedCards: 0
+  totalDamageTaken: 0
+  totalDamagePrevented: 0
 --- !u!1 &777884380
 GameObject:
   m_ObjectHideFlags: 0
@@ -8068,6 +8072,7 @@ MonoBehaviour:
   efficientCardsRateText: {fileID: 952278387}
   mitigationRateText: {fileID: 1511583351}
   mapSceneName: MapScene
+  homeScreenName: Main Menu
 --- !u!114 &843855624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21233,6 +21238,7 @@ MonoBehaviour:
   efficientCardsRateText: {fileID: 1221643122}
   mitigationRateText: {fileID: 1280718366}
   mapSceneName: MapScene
+  homeScreenName: Main Menu
 --- !u!114 &1639822028
 MonoBehaviour:
   m_ObjectHideFlags: 0

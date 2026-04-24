@@ -8,8 +8,9 @@ public class PlagueEnemyManager : MonoBehaviour
     public BoardSlot[] enemySlots;
 
     [Header("AI Chances")]
-    [Range(0f, 1f)] public float chanceToStartNewInfection = 0.4f;
-    [Range(0f, 1f)] public float chanceToAttemptCombo = 0.3f;
+    [Range(0f, 1f)] public float chanceToStartNewInfection = 0.45f;
+    [Range(0f, 1f)] public float chanceToAttemptCombo = 0.35f;
+    [Range(0f, 1f)] public float chanceToBuffExistingInfection = 0.6f;
 
     [Header("Card Placement")]
     public Vector3 cardLocalScale = new Vector3(3f, 3f, 3f);
@@ -62,9 +63,12 @@ public class PlagueEnemyManager : MonoBehaviour
                 return comboMove;
         }
 
-        EnemyMove buffMove = TryBuffExistingInfection();
-        if (buffMove != null)
-            return buffMove;
+        if (Random.value < chanceToBuffExistingInfection)
+        {
+            EnemyMove buffMove = TryBuffExistingInfection();
+            if (buffMove != null)
+                return buffMove;
+        }
 
         EnemyMove fallbackNewInfection = TryStartNewInfection();
         if (fallbackNewInfection != null)

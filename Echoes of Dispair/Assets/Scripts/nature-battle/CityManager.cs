@@ -341,37 +341,37 @@ public class CityManager : MonoBehaviour
         switch (card.humanCardType)
         {
             case HumanCardType.EmergencyGenerator:
-                city.emergencyGeneratorTurns = 5;
+                city.emergencyGeneratorTurns = 3;
                 city.emergencyGeneratorCard = card.gameObject;
                 break;
 
             case HumanCardType.StaySheltered:
-                city.stayShelteredTurns = 5;
+                city.stayShelteredTurns = 3;
                 city.stayShelteredCard = card.gameObject;
                 break;
 
             case HumanCardType.PowerCutOff:
-                city.powerCutOffTurns = 5;
+                city.powerCutOffTurns = 3;
                 city.powerCutOffCard = card.gameObject;
                 break;
 
             case HumanCardType.EmergencyKit:
-                city.emergencyKitTurns = 10;
+                city.emergencyKitTurns = 5;
                 city.emergencyKitCard = card.gameObject;
                 break;
 
             case HumanCardType.StayHydrated:
-                city.stayHydratedTurns = 5;
+                city.stayHydratedTurns = 3;
                 city.stayHydratedCard = card.gameObject;
                 break;
 
             case HumanCardType.Sandbags:
-                city.sandbagsTurns = 5;
+                city.sandbagsTurns = 3;
                 city.sandbagsCard = card.gameObject;
                 break;
 
             case HumanCardType.Barricade:
-                city.barricadeTurns = 5;
+                city.barricadeTurns = 3;
                 city.barricadeCard = card.gameObject;
                 break;
 

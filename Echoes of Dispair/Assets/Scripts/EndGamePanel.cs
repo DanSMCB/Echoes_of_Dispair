@@ -12,6 +12,7 @@ public class EndGamePanel : MonoBehaviour
     public TMP_Text mitigationRateText;
 
     public string mapSceneName = "MapScene";
+    public string homeScreenName = "Main Menu";
 
     void Awake()
     {
@@ -25,6 +26,14 @@ public class EndGamePanel : MonoBehaviour
         gameObject.SetActive(true);
         efficientCardsRateText.text = $"Cards efficiency rate: {LearningTracker.Instance.GetAccuracy():F1}%";
         mitigationRateText.text = $"Damage mitigation rate: {LearningTracker.Instance.GetMitigationRate():F1}%";
+        StartCoroutine(FadeIn());
+    }
+
+    public void ShowGameOver()
+    {
+        gameObject.SetActive(true);
+        efficientCardsRateText.text = $"Final cards efficiency rate: {RogueliteManager.Instance.GetGlobalCardEfficiency():F1}%";
+        mitigationRateText.text = $"Final damage mitigation rate: {RogueliteManager.Instance.GetGlobalMitigationRate():F1}%";
         StartCoroutine(FadeIn());
     }
 
@@ -47,5 +56,10 @@ public class EndGamePanel : MonoBehaviour
     public void ReturnToMap()
     {
         SceneManager.LoadScene(mapSceneName);
+    }
+
+    public void ReturnToHomeScreen()
+    {
+        SceneManager.LoadScene(homeScreenName);
     }
 }
