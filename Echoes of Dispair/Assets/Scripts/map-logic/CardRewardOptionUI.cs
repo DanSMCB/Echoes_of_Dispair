@@ -27,10 +27,6 @@ public class RewardCardOptionUI : MonoBehaviour
         rewardPanel = panel;
         cardId = entry.cardId;
 
-        Debug.Log("Setup reward option: " + entry.cardId +
-                  " | sprite = " + (entry.cardSprite != null ? entry.cardSprite.name : "NULL") +
-                  " | image = " + (cardImage != null ? cardImage.name : "NULL"));
-
         if (cardImage != null)
             cardImage.sprite = entry.cardSprite;
 

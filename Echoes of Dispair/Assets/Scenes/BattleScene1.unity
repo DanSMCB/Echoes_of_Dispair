@@ -2773,17 +2773,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyManager: {fileID: 761688422}
+  plagueEnemyManager: {fileID: 0}
   playerDeckManager: {fileID: 496544838}
   roundText: {fileID: 1577968051}
   isPlayerTurn: 1
   gameEnded: 0
   currentRound: 1
-  targetRoundsToSurvive: 3
+  targetRoundsToSurvive: 9
   playerTurn: {fileID: 443299837}
   playerCardsPlayedThisTurn: 0
   maxCardsPerTurn: 2
   victoryPanel: {fileID: 843855623}
   defeatPanel: {fileID: 1639822027}
+  battleMode: 0
   endTurnButton: {fileID: 793267455}
 --- !u!114 &761688422
 MonoBehaviour:
@@ -7813,7 +7815,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 100
+  m_text: 30
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

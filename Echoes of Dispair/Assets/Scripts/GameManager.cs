@@ -83,6 +83,7 @@ public class GameManager : MonoBehaviour
                         if (InstructionUI.Instance != null)
                         {
                             InstructionUI.Instance.ShowInstruction("Evacuation is unavailable in this city due to a blackout.");
+                            cardData.SetBackToHand();
                         }
 
                         return;
@@ -99,9 +100,23 @@ public class GameManager : MonoBehaviour
                 }
                 else
                 {
-                    CityManager.Instance.ResolveHumanCard(cardData, slot.cityIndex);
-                    bool wasEffective = CityManager.Instance.WasHumanCardEffective(cardData, slot.cityIndex);
-                    LearningTracker.Instance.RegisterCardPlay(wasEffective);
+                    bool wasEffective = false;
+
+                    if (TurnManager.Instance.battleMode == BattleMode.Nature)
+                    {
+                        wasEffective = CityManager.Instance.WasHumanCardEffective(cardData, slot.cityIndex);
+                        CityManager.Instance.ResolveHumanCard(cardData, slot.cityIndex);
+                    }
+                    else if (TurnManager.Instance.battleMode == BattleMode.Plague)
+                    {
+                        wasEffective = PlagueCityManager.Instance.WasHumanPlagueCardEffective(cardData, slot.cityIndex);
+                        PlagueCityManager.Instance.ResolveHumanPlagueCard(cardData, slot.cityIndex);
+                    }
+
+                    if (LearningTracker.Instance != null)
+                    {
+                        LearningTracker.Instance.RegisterCardPlay(wasEffective);
+                    }
 
                     slot.PlaceCard(cardToPlace);
                     TurnManager.Instance.playerCardsPlayedThisTurn++;

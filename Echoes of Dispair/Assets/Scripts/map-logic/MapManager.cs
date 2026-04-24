@@ -20,7 +20,8 @@ public class MapManager : MonoBehaviour
     public MapNode finalDeityNode;
 
     [Header("Scene Names")]
-    public string battleSceneName = "BattleScene";
+    public string battleSceneName = "BattleScene1";
+    public string battleScene2Name = "BattleScene2";
 
     [Header("Raycast")]
     public Camera mainCamera;
@@ -166,7 +167,7 @@ public class MapManager : MonoBehaviour
                     {
                         RogueliteManager.Instance.currentBattleStage = BattleStage.FinalDeity;
                     }
-                    SceneManager.LoadScene(battleSceneName);
+                    SceneManager.LoadScene(battleScene2Name);
                 }
                 break;
         }

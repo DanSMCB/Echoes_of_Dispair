@@ -2,10 +2,17 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 
+public enum BattleMode
+{
+    Nature,
+    Plague
+}
+
 public class TurnManager : MonoBehaviour
 {
     public static TurnManager Instance;
     public EnemyManager enemyManager;
+    public PlagueEnemyManager plagueEnemyManager;
     public DeckManager playerDeckManager;
 
     public TMP_Text roundText;
@@ -24,6 +31,8 @@ public class TurnManager : MonoBehaviour
 
     public EndGamePanel victoryPanel;
     public EndGamePanel defeatPanel;
+
+    public BattleMode battleMode;
 
     public UnityEngine.UI.Button endTurnButton;
 
@@ -66,8 +75,16 @@ public class TurnManager : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
 
-        if (enemyManager != null)
-            enemyManager.PlayTurn();
+        if (battleMode == BattleMode.Nature)
+        {
+            if (enemyManager != null)
+                enemyManager.PlayTurn();
+        }
+        else if (battleMode == BattleMode.Plague)
+        {
+            if (plagueEnemyManager != null)
+                plagueEnemyManager.PlayTurn();
+        }
     }
 
     public void EndEnemyTurn()
@@ -75,7 +92,14 @@ public class TurnManager : MonoBehaviour
         if (gameEnded)
             return;
 
-        CityManager.Instance.AdvanceDisastersOneTurn();
+        if (battleMode == BattleMode.Nature)
+        {
+            CityManager.Instance.AdvanceDisastersOneTurn();
+        }
+        else if (battleMode == BattleMode.Plague)
+        {
+            PlagueCityManager.Instance.AdvancePlagueThreatsOneTurn();
+        }
 
         CheckLoseCondition();
         if (gameEnded)
@@ -116,7 +140,6 @@ public class TurnManager : MonoBehaviour
 
             if (RogueliteManager.Instance != null)
             {
-                Debug.Log("Current battle stage: " + RogueliteManager.Instance.currentBattleStage);
                 if (RogueliteManager.Instance.currentBattleStage == BattleStage.FirstDeity)
                 {
                     RogueliteManager.Instance.MarkFirstBattleWon();
@@ -134,17 +157,33 @@ public class TurnManager : MonoBehaviour
 
     void CheckLoseCondition()
     {
-        if (CityManager.Instance.currentPlayerHealth <= 0)
+        if (battleMode == BattleMode.Nature)
         {
-            gameEnded = true;
-
-            if (RogueliteManager.Instance != null)
+            if (CityManager.Instance.currentPlayerHealth <= 0)
             {
-                RogueliteManager.Instance.ResetRunProgress();
+                Lose();
             }
-
-            if (defeatPanel != null)
-                defeatPanel.Show();
         }
+        else if (battleMode == BattleMode.Plague)
+        {
+            if (PlagueCityManager.Instance.currentPlayerHealth <= 0)
+            {
+                Lose();
+            }
+        }
+        
+    }
+
+    void Lose()
+    {
+        gameEnded = true;
+
+        if (RogueliteManager.Instance != null)
+        {
+            RogueliteManager.Instance.ResetRunProgress();
+        }
+
+        if (defeatPanel != null)
+            defeatPanel.Show();
     }
 }

@@ -37,6 +37,21 @@ public enum PlagueCardType
     GlobalPandemic
 }
 
+public enum PlagueThreatType
+{
+    None,
+    PlagueOfNosoi,
+    AirborneSpread,
+    WaterbornePathogen,
+    SurfaceContamination,
+    RapidMutation,
+    UrbanTransmission,
+    DelayedSymptoms,
+    SilentSpread,
+    Pandemic,
+    GlobalPandemic
+}
+
 public enum HumanCardType
 {
     None,

@@ -269,8 +269,9 @@ MonoBehaviour:
   cardName: population
   currentHealth: 0
   maxHealth: 0
-  cardType: 2
+  cardType: 3
   natureCardType: 0
+  plagueCardType: 0
   humanCardType: 0
   isInHand: 1
   currentSlot: {fileID: 0}
