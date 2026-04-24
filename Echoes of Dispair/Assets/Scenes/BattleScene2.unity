@@ -170,6 +170,7 @@ MonoBehaviour:
   isFrontRow: 0
   isBackRow: 1
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &19715176
@@ -244,6 +245,7 @@ MonoBehaviour:
   isFrontRow: 1
   isBackRow: 0
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &36643696
@@ -5332,6 +5334,7 @@ MonoBehaviour:
   isFrontRow: 1
   isBackRow: 0
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &197722030
@@ -5406,6 +5409,7 @@ MonoBehaviour:
   isFrontRow: 1
   isBackRow: 0
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &261632422
@@ -6029,6 +6033,7 @@ MonoBehaviour:
   isFrontRow: 0
   isBackRow: 1
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &380804234
@@ -6239,6 +6244,7 @@ MonoBehaviour:
   isFrontRow: 0
   isBackRow: 1
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &416813352
@@ -6370,6 +6376,7 @@ MonoBehaviour:
   isFrontRow: 1
   isBackRow: 0
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &430971377
@@ -6772,6 +6779,7 @@ MonoBehaviour:
   isFrontRow: 0
   isBackRow: 1
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &536460102
@@ -6846,6 +6854,7 @@ MonoBehaviour:
   isFrontRow: 1
   isBackRow: 0
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &546880474
@@ -7402,6 +7411,7 @@ MonoBehaviour:
   isFrontRow: 0
   isBackRow: 1
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &724567898
@@ -7476,6 +7486,7 @@ MonoBehaviour:
   isFrontRow: 1
   isBackRow: 0
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &742277447
@@ -7886,6 +7897,7 @@ MonoBehaviour:
   isFrontRow: 1
   isBackRow: 0
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &777884383
@@ -9808,6 +9820,7 @@ MonoBehaviour:
   isFrontRow: 0
   isBackRow: 1
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &1107496010
@@ -10332,6 +10345,7 @@ MonoBehaviour:
   isFrontRow: 0
   isBackRow: 1
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &1229016880
@@ -15439,6 +15453,7 @@ MonoBehaviour:
   isFrontRow: 1
   isBackRow: 0
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &1350874733
@@ -15918,6 +15933,7 @@ MonoBehaviour:
   isFrontRow: 1
   isBackRow: 0
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &1428335610
@@ -15992,6 +16008,7 @@ MonoBehaviour:
   isFrontRow: 0
   isBackRow: 1
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &1439269214
@@ -16189,6 +16206,7 @@ MonoBehaviour:
   isFrontRow: 1
   isBackRow: 0
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &1494053951
@@ -16476,6 +16494,7 @@ MonoBehaviour:
   isFrontRow: 0
   isBackRow: 1
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &1540988225
@@ -17083,6 +17102,7 @@ MonoBehaviour:
   isFrontRow: 1
   isBackRow: 0
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &1667187459
@@ -17746,6 +17766,7 @@ MonoBehaviour:
   isFrontRow: 1
   isBackRow: 0
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &1782282547
@@ -18016,6 +18037,7 @@ MonoBehaviour:
   isFrontRow: 0
   isBackRow: 1
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &1915104941
@@ -23030,6 +23052,7 @@ MonoBehaviour:
   isFrontRow: 0
   isBackRow: 1
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &2014435291
@@ -23104,6 +23127,7 @@ MonoBehaviour:
   isFrontRow: 0
   isBackRow: 1
   highlightVisual: {fileID: 0}
+  playEffectPrefab: {fileID: 1083199477537091378, guid: e84b7186b26aa344ab3939982b8c6295, type: 3}
   isAvailable: 0
   currentCard: {fileID: 0}
 --- !u!65 &2034342050

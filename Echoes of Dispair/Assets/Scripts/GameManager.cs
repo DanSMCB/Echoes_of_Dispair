@@ -90,6 +90,7 @@ public class GameManager : MonoBehaviour
                     }
 
                     slot.PlaceCard(cardToPlace);
+                    slot.PlayCardEffect();
 
                     selectedCard = null;
                     HideAllSlots();
@@ -119,6 +120,7 @@ public class GameManager : MonoBehaviour
                     }
 
                     slot.PlaceCard(cardToPlace);
+                    slot.PlayCardEffect();
                     TurnManager.Instance.playerCardsPlayedThisTurn++;
                     CheckAutoEndTurn();
 
@@ -319,6 +321,7 @@ public class GameManager : MonoBehaviour
 
         destinationSlot.PlaceCard(selectedPopulationToMove);
         populationData.SetPlacedOnBoard(destinationSlot);
+        destinationSlot.PlayCardEffect();
 
         if (pendingEvacuationCard != null)
         {

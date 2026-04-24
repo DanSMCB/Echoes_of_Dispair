@@ -223,6 +223,7 @@ public class PlagueEnemyManager : MonoBehaviour
         card.transform.localScale = cardLocalScale;
 
         targetSlot.PlaceCard(card);
+        targetSlot.PlayCardEffect();
 
         CardData cardData = card.GetComponent<CardData>();
         if (cardData != null)

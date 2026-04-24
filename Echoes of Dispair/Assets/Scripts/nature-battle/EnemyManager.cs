@@ -63,6 +63,7 @@ public class EnemyManager : MonoBehaviour
         card.transform.localScale = new Vector3(3f, 3f, 3f);
 
         targetSlot.PlaceCard(card);
+        targetSlot.PlayCardEffect();
 
         CardData cardData = card.GetComponent<CardData>();
         if (cardData != null)

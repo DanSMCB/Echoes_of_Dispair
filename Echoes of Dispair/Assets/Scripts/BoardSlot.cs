@@ -9,6 +9,7 @@ public class BoardSlot : MonoBehaviour
     public bool isBackRow;
 
     public GameObject highlightVisual;
+    public GameObject playEffectPrefab;
 
     [HideInInspector] public bool isAvailable = false;
     [HideInInspector] public GameObject currentCard = null;
@@ -34,5 +35,19 @@ public class BoardSlot : MonoBehaviour
     public void RemoveCard()
     {
         currentCard = null;
+    }
+
+    public void PlayCardEffect()
+    {
+
+        Debug.Log("Playing effect on slot " + name);
+        if (playEffectPrefab == null)
+            return;
+
+        GameObject effect = Instantiate(playEffectPrefab, transform.position + Vector3.up*2, Quaternion.identity);
+        effect.transform.localRotation = Quaternion.Euler(90f, 0f, 0f);
+
+        effect.transform.SetParent(transform);
+        effect.transform.localPosition = Vector3.zero;
     }
 }
