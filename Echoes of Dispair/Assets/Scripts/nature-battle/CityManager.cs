@@ -187,6 +187,13 @@ public class CityManager : MonoBehaviour
             int baseDamage = city.activeDisaster.damagePerTurn;
             int finalDamagePerPopulation = ModifyDamageForCity(city, city.activeDisaster.type, baseDamage);
             int totalDamage = finalDamagePerPopulation * populationCount;
+            int prevented = baseDamage - finalDamagePerPopulation;
+            if (prevented > 0)
+            {
+                LearningTracker.Instance.AddTotalDamage(baseDamage);
+                LearningTracker.Instance.AddPreventedDamage(prevented * populationCount);
+            }
+
 
             if (totalDamage > 0)
             {

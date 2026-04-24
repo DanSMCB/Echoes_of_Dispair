@@ -343,6 +343,13 @@ public class PlagueCityManager : MonoBehaviour
             int baseDamage = threat.damagePerTurn;
             int finalDamage = ModifyPlagueDamageForCity(city, threat.type, baseDamage);
 
+            int prevented = baseDamage - finalDamage;
+            if (prevented > 0)
+            {
+                LearningTracker.Instance.AddTotalDamage(baseDamage);
+                LearningTracker.Instance.AddPreventedDamage(prevented);
+            }
+
             DamagePlayer(finalDamage);
 
             Debug.Log("City " + city.cityIndex + " suffered " +

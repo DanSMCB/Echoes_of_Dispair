@@ -12,16 +12,16 @@ EditorUserSettings:
       value: 070951545c050b0c5c5b5c2715275b44131619297c2a7136747c1e6ab6e5316b
       flags: 0
     RecentlyUsedSceneGuid-1:
-      value: 5a08575f5207595a0f5d59741173094444164f7d7d2a23317c7a4465bbe1646d
-      flags: 0
-    RecentlyUsedSceneGuid-2:
-      value: 5b55045f07070d0859565e72147b0f44444e4c7f2d787769782b1c67e4b86761
-      flags: 0
-    RecentlyUsedSceneGuid-3:
       value: 5750050404065d0f545c0d7b41715b444216492f297a2463297b4560b3b7676b
       flags: 0
-    RecentlyUsedSceneGuid-4:
+    RecentlyUsedSceneGuid-2:
       value: 02030c575605080d54565b7b44275944134f4c79782b70667f7d4a6ab4e2623c
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5b55045f07070d0859565e72147b0f44444e4c7f2d787769782b1c67e4b86761
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5a08575f5207595a0f5d59741173094444164f7d7d2a23317c7a4465bbe1646d
       flags: 0
     lightmappingBakingProfile:
       value: 51

@@ -9,6 +9,7 @@ public class EndGamePanel : MonoBehaviour
     public float fadeDuration = 2f;
 
     public TMP_Text efficientCardsRateText;
+    public TMP_Text mitigationRateText;
 
     public string mapSceneName = "MapScene";
 
@@ -23,6 +24,7 @@ public class EndGamePanel : MonoBehaviour
     {
         gameObject.SetActive(true);
         efficientCardsRateText.text = $"Cards efficiency rate: {LearningTracker.Instance.GetAccuracy():F1}%";
+        mitigationRateText.text = $"Damage mitigation rate: {LearningTracker.Instance.GetMitigationRate():F1}%";
         StartCoroutine(FadeIn());
     }
 

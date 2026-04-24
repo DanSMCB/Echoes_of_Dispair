@@ -32,13 +32,13 @@ public class EnemyManager : MonoBehaviour
     {
         EnemyMove move;
 
-        if (Random.value < 0.3f)
+        if (Random.value < 0.45f)
         {
             move = TryFindComboPlusModifierMove();
             if (move != null) return move;
         }
 
-        if (Random.value < 0.3f)
+        if (Random.value < 0.45f)
         {
             move = TryFindComboMove();
             if (move != null) return move;
