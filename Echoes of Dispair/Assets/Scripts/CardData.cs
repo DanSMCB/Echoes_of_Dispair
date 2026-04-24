@@ -13,6 +13,7 @@ public class CardData : MonoBehaviour
     public NatureCardType natureCardType;
     public PlagueCardType plagueCardType;
     public HumanCardType humanCardType;
+    public BattleMode allowedBattleMode;
 
     private bool isHovered = false;
 

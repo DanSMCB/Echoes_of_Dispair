@@ -81,11 +81,11 @@ public class DeckManager : MonoBehaviour
         foreach (string cardId in RogueliteManager.Instance.metaProgress.permanentCardRewards)
         {
             GameObject rewardCardPrefab = CardRewardDatabase.Instance.GetCardPrefabById(cardId);
+            CardData data = rewardCardPrefab.GetComponent<CardData>();
 
-            if (rewardCardPrefab != null)
+            if (data.allowedBattleMode == TurnManager.Instance.battleMode)
             {
                 cardPrefabs.Add(rewardCardPrefab);
-                Debug.Log("Added permanent reward card to deck: " + cardId);
             }
         }
     }

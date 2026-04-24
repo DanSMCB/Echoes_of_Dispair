@@ -271,7 +271,9 @@ MonoBehaviour:
   maxHealth: 0
   cardType: 1
   natureCardType: 0
+  plagueCardType: 0
   humanCardType: 13
+  allowedBattleMode: 1
   isInHand: 1
   currentSlot: {fileID: 0}
   selectionHighlight: {fileID: 6869470461583968079}

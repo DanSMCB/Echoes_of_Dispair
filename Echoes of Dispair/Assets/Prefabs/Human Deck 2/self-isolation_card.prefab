@@ -273,6 +273,7 @@ MonoBehaviour:
   natureCardType: 0
   plagueCardType: 0
   humanCardType: 9
+  allowedBattleMode: 1
   isInHand: 1
   currentSlot: {fileID: 0}
   selectionHighlight: {fileID: 6869470461583968079}

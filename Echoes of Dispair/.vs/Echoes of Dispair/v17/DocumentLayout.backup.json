@@ -3,11 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|c:\\users\\danie\\documents\\github\\echoes_of_dispair\\echoes of dispair\\assets\\scripts\\disastercombinationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\disastercombinationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|c:\\users\\danie\\documents\\github\\echoes_of_dispair\\echoes of dispair\\assets\\scripts\\interactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\assets\\scripts\\interactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B255CFAA-B181-2C70-D5EA-504831464A8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -115,19 +111,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DisasterCombinationManager.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\DisasterCombinationManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DisasterCombinationManager.cs",
-              "ToolTip": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\DisasterCombinationManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DisasterCombinationManager.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAmwKIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T03:38:43.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "InteractionManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\InteractionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InteractionManager.cs",
@@ -140,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "CityInfoPanel.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\CityInfoPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CityInfoPanel.cs",
@@ -152,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "PlagueEnemyManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\plague-battle\\PlagueEnemyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\plague-battle\\PlagueEnemyManager.cs",
@@ -164,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PlagueCityManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\plague-battle\\PlagueCityManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\plague-battle\\PlagueCityManager.cs",
@@ -176,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "PlagueCityState.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\plague-battle\\PlagueCityState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\plague-battle\\PlagueCityState.cs",
@@ -188,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "TurnManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\TurnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TurnManager.cs",
@@ -200,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -212,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "CardRewardPanel.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\CardRewardPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\CardRewardPanel.cs",
@@ -224,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "LearningTracker.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\LearningTracker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LearningTracker.cs",
@@ -236,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "EnemyManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\EnemyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyManager.cs",
@@ -248,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "GameEnum.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\GameEnum.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameEnum.cs",
@@ -260,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "CardRewardDatabase.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\CardRewardDatabase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\CardRewardDatabase.cs",
@@ -272,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "CardPreview.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\CardPreview.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CardPreview.cs",
@@ -284,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "CardData.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\CardData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CardData.cs",
@@ -296,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "RogueliteManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\RogueliteManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\RogueliteManager.cs",
@@ -308,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "DeckManager.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\DeckManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DeckManager.cs",
@@ -320,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "MapNode.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\MapNode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\MapNode.cs",
@@ -332,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "RunProgressData.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\RunProgressData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\RunProgressData.cs",
@@ -344,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "EndGamePanel.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\EndGamePanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndGamePanel.cs",
@@ -356,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "MetaProgressData.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\map-logic\\MetaProgressData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\map-logic\\MetaProgressData.cs",
@@ -368,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "InstructionUI.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\InstructionUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InstructionUI.cs",
@@ -380,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "BoardSlot.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\BoardSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BoardSlot.cs",
@@ -392,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "CardHoverSystem.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\CardHoverSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CardHoverSystem.cs",
@@ -404,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "DisasterInstance.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\GitHub\\Echoes_of_Dispair\\Echoes of Dispair\\Assets\\Scripts\\DisasterInstance.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DisasterInstance.cs",

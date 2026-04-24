@@ -7329,6 +7329,7 @@ MonoBehaviour:
   choiceNodeB: {fileID: 374630245}
   finalDeityNode: {fileID: 102243002}
   battleSceneName: BattleScene1
+  battleScene2Name: BattleScene2
   mainCamera: {fileID: 0}
   nodeLayerMask:
     serializedVersion: 2
@@ -8768,6 +8769,42 @@ MonoBehaviour:
     cardPrefab: {fileID: 5114320593775721821, guid: f9c05447b35485546a52aeff732f343c, type: 3}
     cardSprite: {fileID: 21300000, guid: da048bdcb811c5c42a686d1d11b325e6, type: 3}
     cardName: hydrated
+  - cardId: avoid_crowds
+    cardPrefab: {fileID: 3893211836866194602, guid: 2a0cd2d01aabc214484e710a9de442ee, type: 3}
+    cardSprite: {fileID: 21300000, guid: 4e5cd7e60a36beb448c30a8a3584b078, type: 3}
+    cardName: avoid_crowds
+  - cardId: boil_water
+    cardPrefab: {fileID: 3893211836866194602, guid: 8b37b1b6f28074d4d847459dd46453fe, type: 3}
+    cardSprite: {fileID: 21300000, guid: 59daa966b2b00ca4e84ea36d99f94993, type: 3}
+    cardName: boil_water
+  - cardId: hand_washing
+    cardPrefab: {fileID: 3893211836866194602, guid: cf87e88080dbd6f48b8152ae7c50f523, type: 3}
+    cardSprite: {fileID: 21300000, guid: ebf6ce77f3ee0e0479b9a8c49b773ef3, type: 3}
+    cardName: hand_washing
+  - cardId: lockdown
+    cardPrefab: {fileID: 3893211836866194602, guid: 0083007fcb80e1a4e8e7461912a69ee6, type: 3}
+    cardSprite: {fileID: 21300000, guid: ac0ee63e73c2fea4ea297109b1af4d1a, type: 3}
+    cardName: lockdown
+  - cardId: mask_usage
+    cardPrefab: {fileID: 3893211836866194602, guid: f6bcd39a89eb69241b10c2e16a7bdd1b, type: 3}
+    cardSprite: {fileID: 21300000, guid: 8ae3f0758fa1d0c418cf542708ab92bc, type: 3}
+    cardName: mask_usage
+  - cardId: self_isolation
+    cardPrefab: {fileID: 3893211836866194602, guid: 46a4ed4a8a7a1674fa72747e7286c0a7, type: 3}
+    cardSprite: {fileID: 21300000, guid: 42ded1cb4befb5a468d6f63d62e49764, type: 3}
+    cardName: self_isolation
+  - cardId: stock_essentials
+    cardPrefab: {fileID: 3893211836866194602, guid: 93be30aafdbb8cb409d9a565deb5683a, type: 3}
+    cardSprite: {fileID: 21300000, guid: 183c8056b47aa6c4e9d3b13ce7e829af, type: 3}
+    cardName: stock_essentials
+  - cardId: use_sanitizer
+    cardPrefab: {fileID: 3893211836866194602, guid: 2ae02fb238b91c0409c2ca30c241c28a, type: 3}
+    cardSprite: {fileID: 21300000, guid: a2e7b5bf5ef9ed14cbafb0f28bf5f3a6, type: 3}
+    cardName: use_sanitizer
+  - cardId: vaccination
+    cardPrefab: {fileID: 3893211836866194602, guid: 05aa3ba5843035d4e8e30828d89daa11, type: 3}
+    cardSprite: {fileID: 21300000, guid: 80ee2b5ddd4f0d34dbfd2c294ce92baa, type: 3}
+    cardName: vaccination
 --- !u!1001 &1133569254
 PrefabInstance:
   m_ObjectHideFlags: 0

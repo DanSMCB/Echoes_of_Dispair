@@ -45,10 +45,6 @@ public class CardRewardDatabase : MonoBehaviour
             {
                 cardLookup.Add(entry.cardId, entry);
             }
-            else
-            {
-                Debug.LogWarning("Duplicate card reward ID found: " + entry.cardId);
-            }
         }
     }
 
@@ -60,7 +56,6 @@ public class CardRewardDatabase : MonoBehaviour
         if (cardLookup.TryGetValue(cardId, out CardRewardEntry entry))
             return entry.cardPrefab;
 
-        Debug.LogWarning("No reward card prefab found for ID: " + cardId);
         return null;
     }
 
@@ -72,7 +67,6 @@ public class CardRewardDatabase : MonoBehaviour
         if (cardLookup.TryGetValue(cardId, out CardRewardEntry entry))
             return entry;
 
-        Debug.LogWarning("No reward entry found for ID: " + cardId);
         return null;
     }
 

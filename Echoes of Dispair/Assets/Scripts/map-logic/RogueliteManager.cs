@@ -70,7 +70,6 @@ public class RogueliteManager : MonoBehaviour
     {
         if (CardRewardDatabase.Instance == null)
         {
-            Debug.LogError("CardRewardDatabase.Instance is NULL");
             return;
         }
 

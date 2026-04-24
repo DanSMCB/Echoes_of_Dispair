@@ -148,7 +148,6 @@ public class PlagueCityManager : MonoBehaviour
             case PlagueCardType.RapidMutation:
                 city.rapidMutationTurns = 4;
                 city.rapidMutationCard = card.gameObject;
-                Debug.Log("Rapid Mutation active in city " + cityIndex);
                 break;
 
             case PlagueCardType.SilentSpread:
